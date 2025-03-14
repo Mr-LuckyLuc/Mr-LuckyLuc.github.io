@@ -1,0 +1,29 @@
+footer {
+
+  background-color: #888888;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10vw;
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    margin: 5px;
+  }
+
+  .social {
+    width: 100%;
+    text-align: end;
+
+    a {
+      margin: 1%;
+
+      img {
+        width: 42px;
+      }
+    }
+  }
+
+}

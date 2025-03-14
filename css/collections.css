@@ -1,0 +1,11 @@
+.collection {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin: 1vh 2vw;
+}
+
+.collection-title {
+    width: 100%;
+}
