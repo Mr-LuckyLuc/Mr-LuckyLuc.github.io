@@ -2,12 +2,12 @@
   margin: 2vh 2vw;
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid gray;
+  border: 2px solid #949294;
   border-radius: 20px;
 }
 
 .card-content {
-  color: black;
+  color: #171614;
   min-height: 100%;
 }
 
@@ -41,6 +41,7 @@
     max-height: 420px;
     border-radius: 18px 0 0 18px;
   }
+
 }
 
 @media screen and (max-width: 45em) {
