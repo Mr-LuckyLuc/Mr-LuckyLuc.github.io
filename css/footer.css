@@ -1,29 +1,20 @@
 footer {
-
-  background-color: #888888;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 10vw;
-
-  ul {
-    list-style-type: none;
-  }
-
-  li {
-    margin: 5px;
-  }
-
-  .social {
-    width: 100%;
-    text-align: end;
-
-    a {
-      margin: 1%;
-
-      img {
-        width: 42px;
-      }
-    }
-  }
-
+    background: #1f1f1f;
+    color: #e5e5e5;
+    padding: 3rem 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
 }
+
+footer .social a img {
+    width: 40px;
+    filter: grayscale(1) brightness(2);
+    transition: filter .3s;
+}
+
+footer .social a img:hover {
+    filter: none;
+}
+
