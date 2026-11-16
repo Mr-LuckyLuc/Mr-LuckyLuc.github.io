@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symbol Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        let quizContainer;
+        let questionContainer;
+        let answerElement;
+        let options = [];
+        let correctAnswer = 0;
+
+        document.addEventListener("DOMContentLoaded", async function() {
+            quizContainer = document.getElementById('quiz');
+            questionContainer = document.getElementById('question');
+            answerElement = document.getElementById('answer'); 
+
+            fetch('symbols.json')
+            .then(response => response.json())
+            .then(data => {
+                const sectionsContainer = document.getElementById('library');
+                data.sections.forEach(section => {
+                    const sectionElement = document.createElement('section');
+                    sectionElement.id = section.id;
+                    sectionElement.innerHTML = `
+                        <h3 onclick="toggleSection('${section.id}-table')">${section.title}</h3>
+                        <table class="symbol-table" id="${section.id}-table" style="display: none;"></table>
+                    `;
+
+                    section.items.forEach(item => {
+                        const row = document.createElement('tr');
+                        if (item.alt) {
+                            row.innerHTML = `
+                                <td class="symbol-cell"><img src='${item.symbol}' alt='${item.alt}'></td>
+                                <td class="description-cell">${item.description}</td>
+                            `;
+                        } else {
+                            row.innerHTML = `
+                                <td class="symbol-cell"><p>${item.symbol}</p></td>
+                                <td class="description-cell">${item.description}</td>
+                            `;
+                        }
+                        sectionElement.querySelector(`#${section.id}-table`).appendChild(row);
+                    });
+
+                    sectionsContainer.appendChild(sectionElement);
+                });
+            })
+            .catch(error => console.error('Error loading symbols data:', error));
+
+            getNewQuestion();
+        });
+
+        async function generateQuestion() {
+            try {
+                const response = await fetch('symbols.json');
+                const data = await response.json();
+                
+                const sectionNumber = Math.floor(Math.random() * data.sections.length);
+                const iconNumber = Math.floor(Math.random() * data.sections[sectionNumber].items.length);
+                const iconObject = data.sections[sectionNumber].items[iconNumber];
+                const answerIndex = Math.floor(Math.random() * 4);
+
+                options = [];
+                let optionNumbers = [iconNumber];
+                let number = 0
+                for (let i = 0; i < 4; i++) {
+                    do {
+                        number = Math.floor(Math.random() * data.sections[sectionNumber].items.length);
+                    } while (optionNumbers.includes(number));
+                    optionNumbers.push(number);
+                    const randomItem = data.sections[sectionNumber].items[number];
+                    options.push(`<p>${randomItem.description}</p>`);
+                }
+                options[answerIndex] = `<p>${iconObject.description}</p>`;
+
+                let question;
+                if (iconObject.alt) {
+                    question = `<img src="${iconObject.symbol}" alt="${iconObject.alt}"></img>`;
+                } else {
+                    question = `<p>${iconObject.symbol}</p>`;
+                }
+
+                return [question, ...options, answerIndex, iconObject.description];
+            } catch (error) {
+                console.error('Error fetching symbols data:', error);
+            }
+        }
+
+        function selectAnswer(index) {
+            const correctAnswer = quizContainer.getAttribute('data-correct-answer');
+            if (index == correctAnswer) {
+                answerElement.innerHTML = "Correct!";
+            } else {
+                answerElement.innerHTML = `Incorrect. The correct answer is ${options[correctAnswer]}`;
+            }
+            answerElement.innerHTML += '<br><br><button onclick="getNewQuestion()">Get new question</button>'
+        }
+
+        function submitAnswer(text) {
+            const correctAnswer = questionContainer.getAttribute('data-correct-answer');
+            if (text.toLowerCase() == correctAnswer.toLowerCase()) {
+                answerElement.innerHTML = "Correct!";
+            } else {
+                answerElement.innerHTML = `Incorrect. The correct answer is ${correctAnswer}`;
+            }
+            answerElement.innerHTML += '<br><br><button onclick="getNewQuestion()">Get new question</button>'
+        }
+
+        async function getNewQuestion() {
+            try {
+                const [question, optionA, optionB, optionC, optionD, correctAnswerNumber, correctAnswerText] = await generateQuestion();
+                quizContainer.innerHTML = `
+                    <p id="quiz">${question}</p>
+                    <button onclick="selectAnswer(0)">${optionA}</button>
+                    <button onclick="selectAnswer(1)">${optionB}</button>
+                    <button onclick="selectAnswer(2)">${optionC}</button>
+                    <button onclick="selectAnswer(3)">${optionD}</button>
+                `;
+                questionContainer.innerHTML = `
+                    <p id="question">${question}</p>
+                    <input type="text" id="question-input"/>
+                    <button onclick="submitAnswer(document.getElementById('question-input').value)">Check</button>
+                `;
+                quizContainer.setAttribute('data-correct-answer', correctAnswerNumber);
+                questionContainer.setAttribute('data-correct-answer', correctAnswerText);
+                answerElement.innerHTML = "";
+            } catch (error) {
+                console.error('Error generating new question:', error);
+            }
+        }
+        
+        function toggleSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            if (section.style.display === "none") {
+                section.style.display = "block";
+            } else {
+                section.style.display = "none";
+            }
+        }
+
+        function toggleQuestion() {
+           if (quizContainer.style.display === "none") {
+                quizContainer.style.display = "block";
+                questionContainer.style.display = "none";
+            } else {
+                quizContainer.style.display = "none";
+                questionContainer.style.display = "block";
+            } 
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Learn Most &#40;AMA requirments&#41; NP5011 Symbols*</h1>
+    </header>
+    <main>
+        <section id="library">
+            <!-- Sections will be loaded dynamically -->
+        </section>
+        <button onclick="toggleQuestion()">Toggle question type</button>
+        <section id="quiz">
+            <!-- Quiz section will be loaded dynamically -->
+        </section>
+        <section id="question" style="display: none;">
+            <!-- Question section will be loaded dynamically -->
+        </section>
+        <section id="answer">
+            <!-- Answer will be loaded dynamically -->
+        </section>
+    </main>
+    <footer>
+        <p>*This is mostly a test and only includes symbols we need to learn, it might not be 100% complete as the list is generated with AI &#40;given pdf and asked to extract pictures and description&#41; and not fully checked.<br> It will slowly be checked by users, if you have any remarks, contact me, u know who I am.</p>
+    </footer>
+</body>
+</html>

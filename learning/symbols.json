@@ -1,0 +1,3226 @@
+{
+    "sections": [
+        {
+            "title": "B: Positions, Distances, Directions, Compass",
+            "id": "B",
+            "items": [
+                {
+                    "symbol": "Lat",
+                    "alt": null,
+                    "description": "Latitude",
+                    "id": "B1"
+                },
+                {
+                    "symbol": "Long",
+                    "alt": null,
+                    "description": "Longitude",
+                    "id": "B2"
+                },
+                {
+                    "symbol": "°",
+                    "alt": null,
+                    "description": "Degree(s)",
+                    "id": "B4"
+                },
+                {
+                    "symbol": "'",
+                    "alt": null,
+                    "description": "Minute(s) of arc",
+                    "id": "B5"
+                },
+                {
+                    "symbol": "''",
+                    "alt": null,
+                    "description": "Second(s) of arc",
+                    "id": "B6"
+                },
+                {
+                    "symbol": "PA",
+                    "alt": null,
+                    "description": "Position approximate (not accurately determined or does not remain fixed)",
+                    "id": "B7"
+                },
+                {
+                    "symbol": "PD",
+                    "alt": null,
+                    "description": "Position doubtful (reported in various positions)",
+                    "id": "B8"
+                },
+                {
+                    "symbol": "N",
+                    "alt": null,
+                    "description": "North",
+                    "id": "B9"
+                },
+                {
+                    "symbol": "E",
+                    "alt": null,
+                    "description": "East",
+                    "id": "B10"
+                },
+                {
+                    "symbol": "S",
+                    "alt": null,
+                    "description": "South",
+                    "id": "B11"
+                },
+                {
+                    "symbol": "W",
+                    "alt": null,
+                    "description": "West",
+                    "id": "B12"
+                },
+                {
+                    "symbol": "NE",
+                    "alt": null,
+                    "description": "North-east",
+                    "id": "B13"
+                },
+                {
+                    "symbol": "SE",
+                    "alt": null,
+                    "description": "South-east",
+                    "id": "B14"
+                },
+                {
+                    "symbol": "NW",
+                    "alt": null,
+                    "description": "North-west",
+                    "id": "B15"
+                },
+                {
+                    "symbol": "SW",
+                    "alt": null,
+                    "description": "South-west",
+                    "id": "B16"
+                },
+                {
+                    "symbol": "Sections/B/TriangulationPoint.png",
+                    "alt": "Small triangle with dot on yellow",
+                    "description": "Triangulation point",
+                    "id": "B20"
+                },
+                {
+                    "symbol": "Sections/B/ObservationSpot.png",
+                    "alt": "Circle with cross on yellow",
+                    "description": "Observation spot",
+                    "id": "B21"
+                },
+                {
+                    "symbol": "Sections/B/FixedPoint.png",
+                    "alt": "Two small circles with dot on yellow",
+                    "description": "Fixed point",
+                    "id": "B22"
+                },
+                {
+                    "symbol": "Sections/B/Benchmark.png",
+                    "alt": "Short arrow pointing up on a horizontal line, on yellow",
+                    "description": "Benchmark",
+                    "id": "B23"
+                },
+                {
+                    "symbol": "Sections/B/DistanceAlongWaterwayNoVisibleMarker.png",
+                    "alt": "Blue waterway band with small circle and magenta km 32",
+                    "description": "Distance along waterway, no visible marker",
+                    "id": "B25.1"
+                },
+                {
+                    "symbol": "Sections/B/DistanceAlongWaterwayWithVisibleMarker.png",
+                    "alt": "Blue waterway between lines with circle and km 32 above",
+                    "description": "Distance along waterway, with visible marker",
+                    "id": "B25.2"
+                },
+                {
+                    "symbol": "Sections/B/SymbolsInPlan.png",
+                    "alt": "Square with dots, hash sign on blue and circled 18 with Wk",
+                    "description": "Symbols in plan: position is centre of primary symbol",
+                    "id": "B30"
+                },
+                {
+                    "symbol": "Sections/B/SymbolsInProfile.png",
+                    "alt": "Three upright profile symbols on yellow",
+                    "description": "Symbols in profile: position is at bottom of symbol",
+                    "id": "B31"
+                },
+                {
+                    "symbol": "Sections/B/PointSymbols.png",
+                    "alt": "Small circles with Mast, MAST and a star on yellow",
+                    "description": "Point symbols (accurate positions)",
+                    "id": "B32"
+                },
+                {
+                    "symbol": "Sections/B/ApproximatePosition.png",
+                    "alt": "Small circle with Mast PA on yellow",
+                    "description": "Approximate position",
+                    "id": "B33"
+                },
+                {
+                    "symbol": "km",
+                    "alt": null,
+                    "description": "Kilometre(s)",
+                    "id": "B40"
+                },
+                {
+                    "symbol": "m",
+                    "alt": null,
+                    "description": "Metre(s)",
+                    "id": "B41"
+                },
+                {
+                    "symbol": "dm",
+                    "alt": null,
+                    "description": "Decimetre(s)",
+                    "id": "B42"
+                },
+                {
+                    "symbol": "cm",
+                    "alt": null,
+                    "description": "Centimetre(s)",
+                    "id": "B43"
+                },
+                {
+                    "symbol": "mm",
+                    "alt": null,
+                    "description": "Millimetre(s)",
+                    "id": "B44"
+                },
+                {
+                    "symbol": "M",
+                    "alt": null,
+                    "description": "International Nautical Mile(s) (1852m) or Sea Mile(s)",
+                    "id": "B45"
+                },
+                {
+                    "symbol": "ft",
+                    "alt": null,
+                    "description": "Foot/feet",
+                    "id": "B47"
+                },
+                {
+                    "symbol": "h",
+                    "alt": null,
+                    "description": "Hour",
+                    "id": "B49"
+                },
+                {
+                    "symbol": "m",
+                    "alt": null,
+                    "description": "Minute(s) of time",
+                    "id": "B50-1"
+                },
+                {
+                    "symbol": "min",
+                    "alt": null,
+                    "description": "Minute(s) of time",
+                    "id": "B50-2"
+                },
+                {
+                    "symbol": "s",
+                    "alt": null,
+                    "description": "Second(s) of time",
+                    "id": "B51-1"
+                },
+                {
+                    "symbol": "sec",
+                    "alt": null,
+                    "description": "Second(s) of time",
+                    "id": "B51-2"
+                },
+                {
+                    "symbol": "kn",
+                    "alt": null,
+                    "description": "Knot(s)",
+                    "id": "B52"
+                },
+                {
+                    "symbol": "t",
+                    "alt": null,
+                    "description": "Tonne(s), Ton(s), tonnage (weight)",
+                    "id": "B53"
+                },
+                {
+                    "symbol": "cd",
+                    "alt": null,
+                    "description": "Candela",
+                    "id": "B54"
+                },
+                {
+                    "symbol": "Sections/B/NoteOfMagneticVariationInPosition.png",
+                    "alt": "Magenta framed text with magnetic variation value",
+                    "description": "Note of magnetic variation, in position",
+                    "id": "B68.1"
+                },
+                {
+                    "symbol": "Magnetic Variation at 55°N 8°W 4°30´W 2007 (8´E)",
+                    "alt": null,
+                    "description": "Note of magnetic variation, out of position",
+                    "id": "B68.2"
+                },
+                {
+                    "symbol": "Sections/B/LocalMagneticAnomaly.png",
+                    "alt": "Magenta wavy outline around ±15°",
+                    "description": "Local Magnetic Anomaly. Within the enclosed area the magnetic variation may deviate from the normal by the value shown.",
+                    "id": "B82.1"
+                },
+                {
+                    "symbol": "Local Magnetic Anomaly (see Note)",
+                    "alt": null,
+                    "description": "Where the area affected cannot be easily defined, a legend only is shown at the position.",
+                    "id": "B82.2"
+                }
+            ]
+        },
+        {
+            "title": "C: Natural Features",
+            "id": "C",
+            "items": [
+                {
+                    "symbol": "Sections/C/CoastlineSurveyed.png",
+                    "alt": "Solid coastline between yellow land and blue water",
+                    "description": "Coastline, surveyed",
+                    "id": "C1"
+                },
+                {
+                    "symbol": "Sections/C/CoastlineUnsurveyed.png",
+                    "alt": "Dashed coastline between yellow land and blue water",
+                    "description": "Coastline, unsurveyed",
+                    "id": "C2"
+                },
+                {
+                    "symbol": "Sections/C/SteepCoastCliffs1.png",
+                    "alt": "Coast with black wedge-shaped hachures",
+                    "description": "Steep coast, Cliffs",
+                    "id": "C3-1"
+                },
+                {
+                    "symbol": "Sections/C/SteepCoastCliffs2.png",
+                    "alt": "Coast with scattered hachure marks on land",
+                    "description": "Steep coast, Cliffs",
+                    "id": "C3-2"
+                },
+                {
+                    "symbol": "Sections/C/Hillocks.png",
+                    "alt": "Small star-shaped marks on land near the coast",
+                    "description": "Hillocks",
+                    "id": "C4"
+                },
+                {
+                    "symbol": "Sections/C/FlatCoast.png",
+                    "alt": "Smooth coastline between land and water",
+                    "description": "Flat coast",
+                    "id": "C5"
+                },
+                {
+                    "symbol": "Sections/C/SandyShore.png",
+                    "alt": "Coastline with dotted line along the shore",
+                    "description": "Sandy shore",
+                    "id": "C6"
+                },
+                {
+                    "symbol": "Sections/C/StonyShoreShingly.png",
+                    "alt": "Coastline with small circles and label Stones",
+                    "description": "Stony shore, Shingly shore",
+                    "id": "C7"
+                },
+                {
+                    "symbol": "Sections/C/SandhillsDunes1.png",
+                    "alt": "Dotted rings on land and dotted shoreline",
+                    "description": "Sandhills, Dunes",
+                    "id": "C8-1"
+                },
+                {
+                    "symbol": "Sections/C/SandhillsDunes2.png",
+                    "alt": "Land labelled Sand dunes beside water",
+                    "description": "Sandhills, Dunes",
+                    "id": "C8-2"
+                },
+                {
+                    "symbol": "Sections/C/ContourLinesWithValuesAndSpot1.png",
+                    "alt": "Contour lines with values from 50 to 250",
+                    "description": "Contour lines with values and spot height",
+                    "id": "C10-1"
+                },
+                {
+                    "symbol": "Sections/C/ContourLinesWithValuesAndSpot2.png",
+                    "alt": "Closed contour lines around spot height 259",
+                    "description": "Contour lines with values and spot height",
+                    "id": "C10-2"
+                },
+                {
+                    "symbol": "Sections/C/SpotHeights.png",
+                    "alt": "Land with dots and height numbers along the coast",
+                    "description": "Spot heights",
+                    "id": "C11"
+                },
+                {
+                    "symbol": "Sections/C/ApproximateContourLinesWithValuesAnd.png",
+                    "alt": "Dashed contour lines with values",
+                    "description": "Approximate contour lines with values and approximate height",
+                    "id": "C12"
+                },
+                {
+                    "symbol": "Sections/C/FormLinesWithSpotHeight.png",
+                    "alt": "Thin form lines around spot height 359",
+                    "description": "Form lines with spot height",
+                    "id": "C13"
+                },
+                {
+                    "symbol": "Sections/C/ApproximateHeightOfTopTrees.png",
+                    "alt": "Contour lines with tree symbols and height in parentheses",
+                    "description": "Approximate height of top of trees (above height datum)",
+                    "id": "C14"
+                },
+                {
+                    "symbol": "Sections/C/RiverStream.png",
+                    "alt": "Blue river winding through land with label Name",
+                    "description": "River, Stream",
+                    "id": "C20"
+                },
+                {
+                    "symbol": "Sections/C/IntermittentRiver.png",
+                    "alt": "Dashed river lines crossing land",
+                    "description": "Intermittent river",
+                    "id": "C21"
+                },
+                {
+                    "symbol": "Sections/C/RapidsWaterfalls.png",
+                    "alt": "Blue river with short cross lines and a small island",
+                    "description": "Rapids, Waterfalls",
+                    "id": "C22"
+                },
+                {
+                    "symbol": "Sections/C/Lakes.png",
+                    "alt": "Several blue water areas on land",
+                    "description": "Lakes",
+                    "id": "C23"
+                },
+                {
+                    "symbol": "Sections/C/SaltPans1.png",
+                    "alt": "Water areas with cross-hatched pattern",
+                    "description": "Salt pans",
+                    "id": "C24-1"
+                },
+                {
+                    "symbol": "Sections/C/SaltPans2.png",
+                    "alt": "Land area labelled Salt pans",
+                    "description": "Salt pans",
+                    "id": "C24-2"
+                },
+                {
+                    "symbol": "Sections/C/Glacier1.png",
+                    "alt": "White area with short vertical strokes ending in water",
+                    "description": "Glacier",
+                    "id": "C25-1"
+                },
+                {
+                    "symbol": "Sections/C/Glacier2.png",
+                    "alt": "White area with blue strokes and blue dashed outline",
+                    "description": "Glacier",
+                    "id": "C25-2"
+                },
+                {
+                    "symbol": "Sections/C/LavaFlow.png",
+                    "alt": "Lobed shapes with dashed fill crossing contour lines",
+                    "description": "Lava flow",
+                    "id": "C26"
+                },
+                {
+                    "symbol": "Sections/C/WoodsInGeneral.png",
+                    "alt": "Scattered small tree marks on yellow",
+                    "description": "Woods in general",
+                    "id": "C30-1"
+                },
+                {
+                    "symbol": "Wooded",
+                    "alt": null,
+                    "description": "Woods in general",
+                    "id": "C30-2"
+                },
+                {
+                    "symbol": "Sections/C/DeciduousTreeUnknownOrUnspecified.png",
+                    "alt": "One and three small round-crowned trees",
+                    "description": "Deciduous tree, unknown or unspecified tree",
+                    "id": "C31.1"
+                },
+                {
+                    "symbol": "Sections/C/Evergreen.png",
+                    "alt": "One and three small trees with bushy crowns",
+                    "description": "Evergreen (except conifer)",
+                    "id": "C31.2"
+                },
+                {
+                    "symbol": "Sections/C/Conifer.png",
+                    "alt": "One and three small trees with layered branches",
+                    "description": "Conifer",
+                    "id": "C31.3"
+                },
+                {
+                    "symbol": "Sections/C/Palm.png",
+                    "alt": "One and three small palm trees",
+                    "description": "Palm",
+                    "id": "C31.4"
+                },
+                {
+                    "symbol": "Sections/C/NipaPalm.png",
+                    "alt": "One and three small low palm shapes",
+                    "description": "Nipa palm",
+                    "id": "C31.5"
+                },
+                {
+                    "symbol": "Sections/C/Casuarina.png",
+                    "alt": "One and three small feathery tree shapes",
+                    "description": "Casuarina",
+                    "id": "C31.6"
+                },
+                {
+                    "symbol": "Sections/C/Filao.png",
+                    "alt": "One and three small fork-shaped trees",
+                    "description": "Filao",
+                    "id": "C31.7"
+                },
+                {
+                    "symbol": "Sections/C/Eucalypt.png",
+                    "alt": "One and three slender trees with flat crowns",
+                    "description": "Eucalypt",
+                    "id": "C31.8"
+                },
+                {
+                    "symbol": "Sections/C/Mangrove1.png",
+                    "alt": "Coastline with a row of small bumps along the water",
+                    "description": "Mangrove",
+                    "id": "C32-1"
+                },
+                {
+                    "symbol": "Sections/C/Mangrove2.png",
+                    "alt": "Coast with dense bushy shapes on land",
+                    "description": "Mangrove",
+                    "id": "C32-2"
+                },
+                {
+                    "symbol": "Sections/C/MarshSwampSalt.png",
+                    "alt": "Green area with small tufts and label Marsh",
+                    "description": "Marsh, Swamp, Salt marsh",
+                    "id": "C33"
+                }
+            ]
+        },
+        {
+            "title": "E: Landmarks",
+            "id": "E",
+            "items": [
+                {
+                    "symbol": "Sections/E/ExamplesOfLandmarks.png",
+                    "alt": "Small symbols labelled Factory and Hotel and a small tower",
+                    "description": "Examples of landmarks",
+                    "id": "E1"
+                },
+                {
+                    "symbol": "Sections/E/ExamplesOfConspicuousLandmarks.png",
+                    "alt": "Small symbols labelled FACTORY, HOTEL and WATER TOWER in capitals",
+                    "description": "Examples of conspicuous landmarks. A legend in capital letters indicates that a feature is conspicuous",
+                    "id": "E2"
+                },
+                {
+                    "symbol": "Sections/E/PictorialSymbols.png",
+                    "alt": "Small pictorial buildings drawn in black",
+                    "description": "Pictorial symbols (in true position)",
+                    "id": "E3.1"
+                },
+                {
+                    "symbol": "Sections/E/SketchesViews.png",
+                    "alt": "Magenta sketches of a house and a tower",
+                    "description": "Sketches, Views (out of position)",
+                    "id": "E3.2"
+                },
+                {
+                    "symbol": "Sections/E/HeightOfTopAStructureAbove1.png",
+                    "alt": "Small tower symbol with (30)",
+                    "description": "Height of top of a structure above height datum",
+                    "id": "E4"
+                },
+                {
+                    "symbol": "Sections/E/HeightOfTopAStructureAbove2.png",
+                    "alt": "Small tower symbol with overlined (30)",
+                    "description": "Height of top of a structure above ground level",
+                    "id": "E5"
+                },
+                {
+                    "symbol": "Sections/E/ChurchCathedral.png",
+                    "alt": "Cross-shaped church outline and a small cross symbol",
+                    "description": "Church, Cathedral",
+                    "id": "E10.1-1"
+                },
+                {
+                    "symbol": "Ch",
+                    "alt": null,
+                    "description": "Church, Cathedral",
+                    "id": "E10.1-2"
+                },
+                {
+                    "symbol": "Sections/E/ChurchTower.png",
+                    "alt": "Church outline with small tower and Tr, small cross with Tr",
+                    "description": "Church tower",
+                    "id": "E10.2"
+                },
+                {
+                    "symbol": "Sections/E/ChurchSpire.png",
+                    "alt": "Church outline with small tower and Sp, small cross with Sp",
+                    "description": "Church spire",
+                    "id": "E10.3"
+                },
+                {
+                    "symbol": "Sections/E/ChurchCupola.png",
+                    "alt": "Church outline with small dome and Cup, small cross with Cup",
+                    "description": "Church cupola",
+                    "id": "E10.4"
+                },
+                {
+                    "symbol": "Sections/E/Temple.png",
+                    "alt": "Small box with crossed lines",
+                    "description": "Temple",
+                    "id": "E13"
+                },
+                {
+                    "symbol": "Sections/E/Pagoda.png",
+                    "alt": "Small box with crossed lines",
+                    "description": "Pagoda",
+                    "id": "E14"
+                },
+                {
+                    "symbol": "Sections/E/ShintoShrineJossHouse.png",
+                    "alt": "Small box with crossed lines",
+                    "description": "Shinto shrine, Joss house",
+                    "id": "E15"
+                },
+                {
+                    "symbol": "Sections/E/BuddhistTempleOrShrine1.png",
+                    "alt": "Box with crossed lines",
+                    "description": "Buddhist temple or shrine",
+                    "id": "E16-1"
+                },
+                {
+                    "symbol": "Sections/E/BuddhistTempleOrShrine2.png",
+                    "alt": "Hooked cross symbol",
+                    "description": "Buddhist temple or shrine",
+                    "id": "E16-2"
+                },
+                {
+                    "symbol": "Sections/E/MosqueMinaret.png",
+                    "alt": "Small crescent above a circle",
+                    "description": "Mosque, Minaret",
+                    "id": "E17"
+                },
+                {
+                    "symbol": "Sections/E/Marabout.png",
+                    "alt": "Small circle with Marabout",
+                    "description": "Marabout",
+                    "id": "E18"
+                },
+                {
+                    "symbol": "Sections/E/Cemetery.png",
+                    "alt": "Rectangle with small L-shaped marks",
+                    "description": "Cemetery (all religions)",
+                    "id": "E19"
+                },
+                {
+                    "symbol": "Sections/E/Tower.png",
+                    "alt": "Narrow tower shape",
+                    "description": "Tower",
+                    "id": "E20-1"
+                },
+                {
+                    "symbol": "Tr",
+                    "alt": null,
+                    "description": "Tower",
+                    "id": "E20-2"
+                },
+                {
+                    "symbol": "Sections/E/WaterTowerTankOnA.png",
+                    "alt": "Small tower with a tank on top",
+                    "description": "Water tower, Water tank on a tower",
+                    "id": "E21"
+                },
+                {
+                    "symbol": "Sections/E/Chimney1.png",
+                    "alt": "Chimney shape with smoke",
+                    "description": "Chimney",
+                    "id": "E22-1"
+                },
+                {
+                    "symbol": "Sections/E/Chimney2.png",
+                    "alt": "Black chimney shape, small circle and Chy",
+                    "description": "Chimney",
+                    "id": "E22-2"
+                },
+                {
+                    "symbol": "Sections/E/FlareStack.png",
+                    "alt": "Small stack with a flame",
+                    "description": "Flare stack (on land)",
+                    "id": "E23"
+                },
+                {
+                    "symbol": "Sections/E/Monument.png",
+                    "alt": "Slender column with spiral bands",
+                    "description": "Monument (including column, pillar, obelisk, statue)",
+                    "id": "E24-1"
+                },
+                {
+                    "symbol": "Mon",
+                    "alt": null,
+                    "description": "Monument (including column, pillar, obelisk, statue)",
+                    "id": "E24-2"
+                },
+                {
+                    "symbol": "Sections/E/Windmill1.png",
+                    "alt": "Small windmill cross",
+                    "description": "Windmill",
+                    "id": "E25.1"
+                },
+                {
+                    "symbol": "Sections/E/Windmill2.png",
+                    "alt": "Small windmill cross with Ru",
+                    "description": "Windmill (without sails)",
+                    "id": "E25.2"
+                },
+                {
+                    "symbol": "Sections/E/WindTurbine.png",
+                    "alt": "Small three-bladed turbine on a mast",
+                    "description": "Wind turbine",
+                    "id": "E26.1"
+                },
+                {
+                    "symbol": "Sections/E/WindFarm.png",
+                    "alt": "Dashed rectangle around a turbine in a circle",
+                    "description": "Wind farm",
+                    "id": "E26.2"
+                },
+                {
+                    "symbol": "Sections/E/FlagstaffFlagpole.png",
+                    "alt": "Small flag on a pole",
+                    "description": "Flagstaff, Flagpole",
+                    "id": "E27-1"
+                },
+                {
+                    "symbol": "FS",
+                    "alt": null,
+                    "description": "Flagstaff, Flagpole",
+                    "id": "E27-2"
+                },
+                {
+                    "symbol": "Sections/E/RadioMastTelevision.png",
+                    "alt": "Small mast with radiating lines",
+                    "description": "Radio mast, Television mast, Mast",
+                    "id": "E28"
+                },
+                {
+                    "symbol": "Sections/E/RadioTowerTelevision.png",
+                    "alt": "Small tower with radiating lines",
+                    "description": "Radio tower, Television tower",
+                    "id": "E29"
+                },
+                {
+                    "symbol": "Sections/E/RadarMast.png",
+                    "alt": "Small circle with Radar Mast",
+                    "description": "Radar mast",
+                    "id": "E30.1"
+                },
+                {
+                    "symbol": "Sections/E/RadarTower.png",
+                    "alt": "Small circle with Radar Tr",
+                    "description": "Radar tower",
+                    "id": "E30.2"
+                },
+                {
+                    "symbol": "Sections/E/RadarScanner.png",
+                    "alt": "Small circle with Radar Sc",
+                    "description": "Radar scanner",
+                    "id": "E30.3"
+                },
+                {
+                    "symbol": "Sections/E/Radome.png",
+                    "alt": "Small circle with Radome",
+                    "description": "Radome",
+                    "id": "E30.4"
+                },
+                {
+                    "symbol": "Sections/E/DishAerial.png",
+                    "alt": "Small dish on a stand",
+                    "description": "Dish aerial",
+                    "id": "E31"
+                },
+                {
+                    "symbol": "Sections/E/Tanks.png",
+                    "alt": "Black dot and two hatched circles of increasing size",
+                    "description": "Tanks",
+                    "id": "E32-1"
+                },
+                {
+                    "symbol": "Tanks",
+                    "alt": null,
+                    "description": "Tanks",
+                    "id": "E32-2"
+                },
+                {
+                    "symbol": "Sections/E/Silo.png",
+                    "alt": "Circle and small circle, both labelled Silo",
+                    "description": "Silo",
+                    "id": "E33"
+                },
+                {
+                    "symbol": "Sections/E/FortifiedStructure.png",
+                    "alt": "Angular outline with rays and label Fort",
+                    "description": "Fortified structure (on large-scale charts)",
+                    "id": "E34.1"
+                },
+                {
+                    "symbol": "Sections/E/CastleFortBlockhouse.png",
+                    "alt": "Square formed by four small black squares",
+                    "description": "Castle, Fort, Blockhouse (on smaller scale charts)",
+                    "id": "E34.2"
+                },
+                {
+                    "symbol": "Sections/E/BatterySmallFort.png",
+                    "alt": "Small square outline with corner marks",
+                    "description": "Battery, Small fort (on smaller scale charts)",
+                    "id": "E34.3"
+                },
+                {
+                    "symbol": "Sections/E/Quarry1.png",
+                    "alt": "Arc with radiating hachures",
+                    "description": "Quarry (on large-scale charts)",
+                    "id": "E35.1"
+                },
+                {
+                    "symbol": "Sections/E/Quarry2.png",
+                    "alt": "Two crossed picks",
+                    "description": "Quarry (on smaller scale charts)",
+                    "id": "E35.2"
+                },
+                {
+                    "symbol": "Sections/E/Mine.png",
+                    "alt": "Two crossed picks",
+                    "description": "Mine",
+                    "id": "E36"
+                }
+            ]
+        },
+        {
+            "title": "H: Tides, Currents",
+            "id": "H",
+            "items": [
+                {
+                    "symbol": "CD",
+                    "alt": null,
+                    "description": "Chart Datum Datum for sounding reduction",
+                    "id": "H1"
+                },
+                {
+                    "symbol": "LAT",
+                    "alt": null,
+                    "description": "Lowest Astronomical Tide",
+                    "id": "H2"
+                },
+                {
+                    "symbol": "HAT",
+                    "alt": null,
+                    "description": "Highest Astronomical Tide",
+                    "id": "H3"
+                },
+                {
+                    "symbol": "MLW",
+                    "alt": null,
+                    "description": "Mean Low Water",
+                    "id": "H4"
+                },
+                {
+                    "symbol": "MHW",
+                    "alt": null,
+                    "description": "Mean High Water",
+                    "id": "H5"
+                },
+                {
+                    "symbol": "MSL",
+                    "alt": null,
+                    "description": "Mean Sea Level",
+                    "id": "H6"
+                },
+                {
+                    "symbol": "MLWS",
+                    "alt": null,
+                    "description": "Mean Low Water Springs",
+                    "id": "H8"
+                },
+                {
+                    "symbol": "MHWS",
+                    "alt": null,
+                    "description": "Mean High Water Springs",
+                    "id": "H9"
+                },
+                {
+                    "symbol": "MLWN",
+                    "alt": null,
+                    "description": "Mean Low Water Neaps",
+                    "id": "H10"
+                },
+                {
+                    "symbol": "MHWN",
+                    "alt": null,
+                    "description": "Mean High Water Neaps",
+                    "id": "H11"
+                },
+                {
+                    "symbol": "MLLW",
+                    "alt": null,
+                    "description": "Mean Lower Low Water",
+                    "id": "H12"
+                },
+                {
+                    "symbol": "MHHW",
+                    "alt": null,
+                    "description": "Mean Higher High Water",
+                    "id": "H13"
+                },
+                {
+                    "symbol": "MHLW",
+                    "alt": null,
+                    "description": "Mean Higher Low Water",
+                    "id": "H14"
+                },
+                {
+                    "symbol": "MLHW",
+                    "alt": null,
+                    "description": "Mean Lower High Water",
+                    "id": "H15"
+                },
+                {
+                    "symbol": "Sp",
+                    "alt": null,
+                    "description": "Spring tide",
+                    "id": "H16"
+                },
+                {
+                    "symbol": "Np",
+                    "alt": null,
+                    "description": "Neap tide",
+                    "id": "H17"
+                },
+                {
+                    "symbol": "Sections/H/FloodTideStream.png",
+                    "alt": "Arrow with feathered tail and 3kn",
+                    "description": "Flood tide stream (with mean spring rate)",
+                    "id": "H40"
+                },
+                {
+                    "symbol": "Sections/H/EbbTideStream.png",
+                    "alt": "Plain arrow with 2,8kn",
+                    "description": "Ebb tide stream (with mean spring rate)",
+                    "id": "H41"
+                },
+                {
+                    "symbol": "Sections/H/CurrentInRestrictedWaters.png",
+                    "alt": "Arrow with chevrons and a wavy arrow",
+                    "description": "Current in restricted waters",
+                    "id": "H42"
+                },
+                {
+                    "symbol": "Sections/H/OceanCurrent.png",
+                    "alt": "Wavy arrow with (see Note)",
+                    "description": "Ocean current. Details of current strength and seasonal variations may be shown",
+                    "id": "H43"
+                },
+                {
+                    "symbol": "Sections/H/OverfallsTideRipsRaces.png",
+                    "alt": "Small groups of wavy lines",
+                    "description": "Overfalls, tide rips, races",
+                    "id": "H44"
+                },
+                {
+                    "symbol": "Sections/H/Eddies.png",
+                    "alt": "Scattered small spirals",
+                    "description": "Eddies",
+                    "id": "H45"
+                },
+                {
+                    "symbol": "Sections/H/PositionOfTabulatedTidalStreamData.png",
+                    "alt": "Magenta diamond with letter D",
+                    "description": "Position of tabulated tidal stream data with designation",
+                    "id": "H46"
+                },
+                {
+                    "symbol": "Sections/H/OffshorePositionForWhichTidalLevels.png",
+                    "alt": "Magenta square with letter a",
+                    "description": "Offshore position for which tidal levels are tabulated",
+                    "id": "H47"
+                }
+            ]
+        },
+        {
+            "title": "I: Depths",
+            "id": "I",
+            "items": [
+                {
+                    "symbol": "ED",
+                    "alt": null,
+                    "description": "Existence doubtful",
+                    "id": "I1"
+                },
+                {
+                    "symbol": "Sections/I/SoundingOfDoubtfulDepth.png",
+                    "alt": "Dotted circle around 40 with SD",
+                    "description": "Sounding of doubtful depth",
+                    "id": "I2"
+                },
+                {
+                    "symbol": "Rep",
+                    "alt": null,
+                    "description": "Reported, but not confirmed",
+                    "id": "I3.1"
+                },
+                {
+                    "symbol": "Rep (1973)",
+                    "alt": null,
+                    "description": "Reported, with year of report, but not confirmed",
+                    "id": "I3.2"
+                },
+                {
+                    "symbol": "Sections/I/ReportedButNotConfirmedSoundingOr.png",
+                    "alt": "Two dotted circles around 184 (blue) and 212",
+                    "description": "Reported, but not confirmed, sounding or danger (on small-scale charts only)",
+                    "id": "I4"
+                },
+                {
+                    "symbol": "Sections/I/SoundingInTruePosition.png",
+                    "alt": "Sounding figures 12 and 9 with subscript 2 in italics",
+                    "description": "Sounding in true position",
+                    "id": "I10"
+                },
+                {
+                    "symbol": "Sections/I/SoundingOutOfPosition1.png",
+                    "alt": "Dot with (4₈) in water next to the shore",
+                    "description": "Sounding out of position",
+                    "id": "I11-1"
+                },
+                {
+                    "symbol": "Sections/I/SoundingOutOfPosition2.png",
+                    "alt": "Plus sign with (12)",
+                    "description": "Sounding out of position",
+                    "id": "I11-2"
+                },
+                {
+                    "symbol": "Sections/I/SoundingOutOfPosition3.png",
+                    "alt": "Closed contour line with a leader to 3349",
+                    "description": "Sounding out of position",
+                    "id": "I11-3"
+                },
+                {
+                    "symbol": "Sections/I/LeastDepthInNarrowChannel.png",
+                    "alt": "Narrow channel with (14₇)",
+                    "description": "Least depth in narrow channel",
+                    "id": "I12"
+                },
+                {
+                    "symbol": "Sections/I/NoBottomFoundAtDepthShown.png",
+                    "alt": "330 with a dot above a bar",
+                    "description": "No bottom found at depth shown",
+                    "id": "I13"
+                },
+                {
+                    "symbol": "Sections/I/SoundingsTakenFromOldOrSmaller.png",
+                    "alt": "Upright figures 12 and 9 with subscript 1",
+                    "description": "Soundings taken from old or smaller scale sources shown in upright, hairline figures",
+                    "id": "I14"
+                },
+                {
+                    "symbol": "Sections/I/DryingHeightsAndContoursAboveChart.png",
+                    "alt": "Green drying area with underlined figures and contour lines",
+                    "description": "Drying heights and contours above chart datum",
+                    "id": "I15"
+                },
+                {
+                    "symbol": "Sections/I/NaturalWatercourse.png",
+                    "alt": "Dashed watercourse across a green intertidal area with figures",
+                    "description": "Natural watercourse (in intertidal area)",
+                    "id": "I16"
+                },
+                {
+                    "symbol": "Sections/I/LimitOfDredgedChannelOrArea.png",
+                    "alt": "Two parallel dashed lines",
+                    "description": "Limit of dredged channel or area (major and minor)",
+                    "id": "I20"
+                },
+                {
+                    "symbol": "Sections/I/DredgedChannelOrAreaWithDepth1.png",
+                    "alt": "Dashed channel in blue with depths 7·0m and 3·5m",
+                    "description": "Dredged channel or area with depth of dredging in metres and decimetres",
+                    "id": "I21"
+                },
+                {
+                    "symbol": "Sections/I/DredgedChannelOrAreaWithDepth2.png",
+                    "alt": "Dashed channel with 17m (2006) and Dredged to 8·2m (2006)",
+                    "description": "Dredged channel or area with depth of dredging and year of the latest control survey",
+                    "id": "I22"
+                },
+                {
+                    "symbol": "Sections/I/DredgedChannelOrAreaWithDepth3.png",
+                    "alt": "Dashed channel with 17·0m and Maintained depth 13·5m",
+                    "description": "Dredged channel or area with depth regularly maintained",
+                    "id": "I23"
+                },
+                {
+                    "symbol": "Sections/I/AreaSweptByWireDrag.png",
+                    "alt": "Magenta dashed outline around soundings with (2003)",
+                    "description": "Area swept by wire drag. The depth is shown at Chart Datum. (The latest date of sweeping may be shown in parentheses)",
+                    "id": "I24"
+                },
+                {
+                    "symbol": "Sections/I/UnsurveyedOrInadequatelySurveyedAreaWith1.png",
+                    "alt": "Dashed ovals labelled Unsurveyed and Depths (see Note)",
+                    "description": "Unsurveyed or inadequately surveyed area; area with inadequate depth information",
+                    "id": "I25-1"
+                },
+                {
+                    "symbol": "Sections/I/UnsurveyedOrInadequatelySurveyedAreaWith2.png",
+                    "alt": "Magenta dashed ovals labelled Inadequately surveyed and Depths",
+                    "description": "Unsurveyed or inadequately surveyed area; area with inadequate depth information",
+                    "id": "I25-2"
+                },
+                {
+                    "symbol": "Sections/I/DryingContourLowWaterLineChart.png",
+                    "alt": "Stacked bands of blue shades with contour lines and values",
+                    "description": "Drying contour, Low Water (LW) Line, Chart Datum (CD)",
+                    "id": "I30"
+                },
+                {
+                    "symbol": "Sections/I/ApproximateDepthContours.png",
+                    "alt": "Dashed contour lines with values 10 and 50",
+                    "description": "Approximate depth contours (length of dashes may vary)",
+                    "id": "I31"
+                }
+            ]
+        },
+        {
+            "title": "J: Nature of the Seabed",
+            "id": "J",
+            "items": [
+                {
+                    "symbol": "S",
+                    "alt": null,
+                    "description": "Sand",
+                    "id": "J1"
+                },
+                {
+                    "symbol": "M",
+                    "alt": null,
+                    "description": "Mud",
+                    "id": "J2"
+                },
+                {
+                    "symbol": "Cy",
+                    "alt": null,
+                    "description": "Clay",
+                    "id": "J3"
+                },
+                {
+                    "symbol": "Si",
+                    "alt": null,
+                    "description": "Silt",
+                    "id": "J4"
+                },
+                {
+                    "symbol": "St",
+                    "alt": null,
+                    "description": "Stones",
+                    "id": "J5"
+                },
+                {
+                    "symbol": "G",
+                    "alt": null,
+                    "description": "Gravel",
+                    "id": "J6"
+                },
+                {
+                    "symbol": "P",
+                    "alt": null,
+                    "description": "Pebbles",
+                    "id": "J7"
+                },
+                {
+                    "symbol": "Cb",
+                    "alt": null,
+                    "description": "Cobbles",
+                    "id": "J8"
+                },
+                {
+                    "symbol": "R",
+                    "alt": null,
+                    "description": "Rock, Rocky",
+                    "id": "J9.1"
+                },
+                {
+                    "symbol": "Bo",
+                    "alt": null,
+                    "description": "Boulder(s)",
+                    "id": "J9.2"
+                },
+                {
+                    "symbol": "Co",
+                    "alt": null,
+                    "description": "Coral",
+                    "id": "J10"
+                },
+                {
+                    "symbol": "Sh",
+                    "alt": null,
+                    "description": "Shells",
+                    "id": "J11"
+                },
+                {
+                    "symbol": "S/M",
+                    "alt": null,
+                    "description": "Two layers e.g. Sand over Mud",
+                    "id": "J12.1"
+                },
+                {
+                    "symbol": "fS.M.Sh",
+                    "alt": null,
+                    "description": "Mixed: where the seabed comprises a mixture of materials, the main constituent is given first, e.g. fine Sand with Mud and Shells",
+                    "id": "J12.2"
+                },
+                {
+                    "symbol": "Wd",
+                    "alt": null,
+                    "description": "Weed (including Kelp)",
+                    "id": "J13.1"
+                },
+                {
+                    "symbol": "Sections/J/Kelp.png",
+                    "alt": "Wavy branching lines",
+                    "description": "Kelp",
+                    "id": "J13.2"
+                },
+                {
+                    "symbol": "Sections/J/Sandwaves.png",
+                    "alt": "Wavy line with peaks",
+                    "description": "Sandwaves",
+                    "id": "J14"
+                },
+                {
+                    "symbol": "Sections/J/SpringInSeabed.png",
+                    "alt": "Small dots in a fountain-like pattern",
+                    "description": "Spring in seabed",
+                    "id": "J15"
+                },
+                {
+                    "symbol": "Sections/J/AreaOfSandAndMudWith.png",
+                    "alt": "Green intertidal area with letters G, S and M",
+                    "description": "Area of sand and mud with patches of stones or gravel",
+                    "id": "J20"
+                },
+                {
+                    "symbol": "Sections/J/RockyArea.png",
+                    "alt": "Green intertidal area with rough edge and small marks",
+                    "description": "Rocky area",
+                    "id": "J21"
+                },
+                {
+                    "symbol": "Sections/J/CoralReef.png",
+                    "alt": "Green irregular shapes in the water with figures",
+                    "description": "Coral reef",
+                    "id": "J22"
+                },
+                {
+                    "symbol": "f",
+                    "alt": null,
+                    "description": "Fine",
+                    "id": "J30"
+                },
+                {
+                    "symbol": "m",
+                    "alt": null,
+                    "description": "Medium",
+                    "id": "J31"
+                },
+                {
+                    "symbol": "c",
+                    "alt": null,
+                    "description": "Coarse",
+                    "id": "J32"
+                },
+                {
+                    "symbol": "bk",
+                    "alt": null,
+                    "description": "Broken",
+                    "id": "J33"
+                },
+                {
+                    "symbol": "sy",
+                    "alt": null,
+                    "description": "Sticky",
+                    "id": "J34"
+                },
+                {
+                    "symbol": "so",
+                    "alt": null,
+                    "description": "Soft",
+                    "id": "J35"
+                },
+                {
+                    "symbol": "sf",
+                    "alt": null,
+                    "description": "Stiff",
+                    "id": "J36"
+                },
+                {
+                    "symbol": "v",
+                    "alt": null,
+                    "description": "Volcanic",
+                    "id": "J37"
+                },
+                {
+                    "symbol": "ca",
+                    "alt": null,
+                    "description": "Calcareous",
+                    "id": "J38"
+                },
+                {
+                    "symbol": "h",
+                    "alt": null,
+                    "description": "Hard",
+                    "id": "J39"
+                }
+            ]
+        },
+        {
+            "title": "K: Rocks, Wrecks, Obstructions",
+            "id": "K",
+            "items": [
+                {
+                    "symbol": "Sections/K/Dangerline.png",
+                    "alt": "Blue area bounded by a dotted line and a small dotted circle",
+                    "description": "Dangerline: A danger line draws attention to a danger which would not stand out clearly enough if represented solely by its symbol (e.g. isolated rock) or delimits an area containing numerous dangers, through which it is unsafe to navigate",
+                    "id": "K1"
+                },
+                {
+                    "symbol": "Sections/K/DepthClearedByWireDragSweep.png",
+                    "alt": "7 with subscript 5 above a bracket",
+                    "description": "Depth cleared by wire drag sweep or diver. The symbol may be used with other symbols, e.g. wrecks, obstructions, wells",
+                    "id": "K2"
+                },
+                {
+                    "symbol": "Sections/K/SafeClearanceDepth.png",
+                    "alt": "Dotted circle around 12 with a bar above",
+                    "description": "Safe clearance depth. Obstruction over which the exact depth is unknown, but which is considered to have a safe clearance at the depth shown. The symbol may be used with other symbols, e.g. wrecks, wells, turbines",
+                    "id": "K3"
+                },
+                {
+                    "symbol": "Sections/K/RockWhichDoesNotCoverHeight.png",
+                    "alt": "Rocks with heights in parentheses above a profile with Height datum and CD",
+                    "description": "Rock (islet) which does not cover, height above height datum",
+                    "id": "K10"
+                },
+                {
+                    "symbol": "Sections/K/RockWhichCoversAndUncoversHeight.png",
+                    "alt": "Rocks with stars and heights above a profile with Height datum and CD",
+                    "description": "Rock which covers and uncovers, height above Chart Datum, where known",
+                    "id": "K11"
+                },
+                {
+                    "symbol": "Sections/K/RockAwashAtTheLevelOf.png",
+                    "alt": "Rock marks in water above a profile with Height datum, CD and 5m",
+                    "description": "Rock awash at the level of Chart Datum",
+                    "id": "K12"
+                },
+                {
+                    "symbol": "Sections/K/UnderwaterRockOverWhichTheDepth.png",
+                    "alt": "Plus signs in water above a profile with Height datum, CD and 5m",
+                    "description": "Underwater rock over which the depth is unknown, but which is considered dangerous to surface navigation",
+                    "id": "K13"
+                },
+                {
+                    "symbol": "Sections/K/UnderwaterRockOfKnownDepthInside.png",
+                    "alt": "Figures with R above depth contours and a profile with Height datum and CD",
+                    "description": "Underwater rock of known depth, inside the corresponding depth area",
+                    "id": "K14.1"
+                },
+                {
+                    "symbol": "Sections/K/UnderwaterRockOfKnownDepthOutside.png",
+                    "alt": "Circled figures with R above depth contours and a profile with Height datum and CD",
+                    "description": "Underwater rock of known depth, outside the corresponding depth area, dangerous to surface navigation",
+                    "id": "K14.2"
+                },
+                {
+                    "symbol": "Sections/K/UnderwaterRockOfKnownDepthNot.png",
+                    "alt": "35 above R",
+                    "description": "Underwater rock of known depth, not dangerous to surface navigation",
+                    "id": "K15"
+                },
+                {
+                    "symbol": "Sections/K/CoralReefWhichIsAlwaysCovered.png",
+                    "alt": "Dotted outline with plus signs and Co in blue water",
+                    "description": "Coral reef which is always covered",
+                    "id": "K16"
+                },
+                {
+                    "symbol": "Sections/K/Breakers1.png",
+                    "alt": "Dotted wavy marks in blue water",
+                    "description": "Breakers",
+                    "id": "K17-1"
+                },
+                {
+                    "symbol": "Sections/K/Breakers2.png",
+                    "alt": "Rounded outline around 5₈ with 19, 18 and Br",
+                    "description": "Breakers",
+                    "id": "K17-2"
+                },
+                {
+                    "symbol": "Sections/K/WreckHullNeverCoversOnLarge.png",
+                    "alt": "Yellow elongated hull shape with black outline",
+                    "description": "Wreck, hull never covers, on large-scale charts",
+                    "id": "K20"
+                },
+                {
+                    "symbol": "Sections/K/WreckHullCoversAndUncoversOn.png",
+                    "alt": "Green elongated hull shape with dashed outline",
+                    "description": "Wreck, hull covers and uncovers, on large-scale charts",
+                    "id": "K21"
+                },
+                {
+                    "symbol": "Sections/K/SubmergedWreckDepthKnownOnLarge.png",
+                    "alt": "Blue hull shapes with depths 5₂ and 6₅ and Wk",
+                    "description": "Submerged wreck, depth known, on large-scale charts",
+                    "id": "K22"
+                },
+                {
+                    "symbol": "Sections/K/SubmergedWreckDepthUnknownOnLarge.png",
+                    "alt": "Blue dotted hull shape with Wk",
+                    "description": "Submerged wreck, depth unknown, on large-scale charts",
+                    "id": "K23"
+                },
+                {
+                    "symbol": "Sections/K/WreckShowingAnyPartOfHull.png",
+                    "alt": "Small black hull shape with a line",
+                    "description": "Wreck showing any part of hull or superstructure at the level of Chart Datum",
+                    "id": "K24"
+                },
+                {
+                    "symbol": "Sections/K/WreckOfWhichTheMastOnly.png",
+                    "alt": "Small dotted oval with crossed lines and Masts",
+                    "description": "Wreck of which the mast(s) only are visible at Chart Datum",
+                    "id": "K25"
+                },
+                {
+                    "symbol": "Sections/K/WreckOverWhichTheDepthHas.png",
+                    "alt": "Dotted circles around 4₆ and 25 with Wk",
+                    "description": "Wreck over which the depth has been obtained by sounding but not by wire sweep",
+                    "id": "K26"
+                },
+                {
+                    "symbol": "Sections/K/WreckLeastDepthObtainedByWire.png",
+                    "alt": "Dotted circles around 4₆ and 25 with brackets and Wk",
+                    "description": "Wreck, least depth obtained by wire sweep or diver",
+                    "id": "K27"
+                },
+                {
+                    "symbol": "Sections/K/WreckDepthUnknownWhichIsConsidered.png",
+                    "alt": "Small dotted oval with three crossed lines",
+                    "description": "Wreck, depth unknown, which is considered potentially dangerous to surface navigation",
+                    "id": "K28"
+                },
+                {
+                    "symbol": "Sections/K/WreckInOver200mOrDepth.png",
+                    "alt": "Line crossed by three short strokes",
+                    "description": "Wreck, in over 200m or depth unknown, which is considered not dangerous to surface navigation. For information about depth criteria, which may vary, see NP100, The Mariner’s Handbook",
+                    "id": "K29"
+                },
+                {
+                    "symbol": "Sections/K/WreckOverWhichTheExactDepth.png",
+                    "alt": "Dotted circle around 20 with a bar and Wk",
+                    "description": "Wreck over which the exact depth is unknown, but which is considered to have a safe clearance at the depth shown",
+                    "id": "K30"
+                },
+                {
+                    "symbol": "Sections/K/FoulAreaNotDangerousToSurface.png",
+                    "alt": "Dashed box with spaced letters Foul and a hash sign",
+                    "description": "Foul area, not dangerous to surface navigation, but to be avoided by vessels anchoring, trawling, etc (eg remains of wreck, cleared platform)",
+                    "id": "K31"
+                },
+                {
+                    "symbol": "Sections/K/ObstructionOrDangerToNavigationThe.png",
+                    "alt": "Dotted box labelled Obstn and a dotted circle with Obstn",
+                    "description": "Obstruction or danger to navigation the exact nature of which is not specified or has not been determined, depth unknown",
+                    "id": "K40"
+                },
+                {
+                    "symbol": "Sections/K/ObstructionDepthObtainedBySoundingBut.png",
+                    "alt": "Dotted circles around 4₆ and 16₈ with Obstn",
+                    "description": "Obstruction, depth obtained by sounding but not wire sweep",
+                    "id": "K41"
+                },
+                {
+                    "symbol": "Sections/K/ObstructionLeastDepthObtainedByWire.png",
+                    "alt": "Dotted circles around 4₆ and 16₈ with brackets and Obstn",
+                    "description": "Obstruction, least depth obtained by wire sweep or diver",
+                    "id": "K42"
+                },
+                {
+                    "symbol": "Sections/K/StumpsOfPostsOrPilesWholly1.png",
+                    "alt": "Blue dotted circle with Obstn",
+                    "description": "Stumps of posts or piles, wholly submerged",
+                    "id": "K43.1-1"
+                },
+                {
+                    "symbol": "Sections/K/StumpsOfPostsOrPilesWholly2.png",
+                    "alt": "Three small hooked posts",
+                    "description": "Stumps of posts or piles, wholly submerged",
+                    "id": "K43.1-2"
+                },
+                {
+                    "symbol": "Sections/K/SubmergedPileStakeSnagOrStump.png",
+                    "alt": "Single small hooked post with a circle",
+                    "description": "Submerged pile, stake, snag or stump (with exact position)",
+                    "id": "K43.2"
+                },
+                {
+                    "symbol": "Sections/K/FishingStakes.png",
+                    "alt": "Two lines with rows of short ticks",
+                    "description": "Fishing stakes",
+                    "id": "K44.1"
+                },
+                {
+                    "symbol": "Sections/K/FishTrapWeirTunnyNets.png",
+                    "alt": "Dotted line leading to a dotted rectangle",
+                    "description": "Fish trap, fish weir, tunny nets",
+                    "id": "K44.2"
+                },
+                {
+                    "symbol": "Sections/K/FishTrapAreaTunnyNets.png",
+                    "alt": "Dashed boxes labelled Fish traps and Tunny nets",
+                    "description": "Fish trap area, tunny nets area",
+                    "id": "K45"
+                },
+                {
+                    "symbol": "Sections/K/FishHaven.png",
+                    "alt": "Blue dotted area with fish mark and a small dotted oval with fish mark",
+                    "description": "Fish haven",
+                    "id": "K46.1"
+                },
+                {
+                    "symbol": "Sections/K/FishHavenWithMinimumDepth.png",
+                    "alt": "Blue area with fish mark and 2₄, small dotted oval with fish mark and (2₄)",
+                    "description": "Fish haven, with minimum depth",
+                    "id": "K46.2"
+                },
+                {
+                    "symbol": "Sections/K/ShellfishBedsWithNoObstructionTo.png",
+                    "alt": "Magenta dashed box labelled Shellfish Beds",
+                    "description": "Shellfish beds, with no obstruction to navigation",
+                    "id": "K47"
+                },
+                {
+                    "symbol": "Sections/K/MarineFarm1.png",
+                    "alt": "Dashed rectangle with small boxed fish marks",
+                    "description": "Marine farm (on large-scale charts)",
+                    "id": "K48.1"
+                },
+                {
+                    "symbol": "Sections/K/MarineFarm2.png",
+                    "alt": "Small boxed fish mark and small box",
+                    "description": "Marine farm (on small-scale charts)",
+                    "id": "K48.2"
+                }
+            ]
+        },
+        {
+            "title": "L: Offshore Installations",
+            "id": "L",
+            "items": [
+                {
+                    "symbol": "Sections/L/NameOfOilfieldOrGasfield.png",
+                    "alt": "Italic capitals EKOFISK OILFIELD",
+                    "description": "Name of oilfield or gasfield",
+                    "id": "L1"
+                },
+                {
+                    "symbol": "Sections/L/PlatformWithDesignationName.png",
+                    "alt": "Square with dot, magenta flare and Z-44",
+                    "description": "Platform with designation/name",
+                    "id": "L2"
+                },
+                {
+                    "symbol": "Sections/L/LimitOfSafetyZoneAroundOffshore.png",
+                    "alt": "Magenta dashed circle with ticks around a square platform mark",
+                    "description": "Limit of safety zone around offshore installation",
+                    "id": "L3"
+                },
+                {
+                    "symbol": "Sections/L/WindTurbineLitAndWithVertical.png",
+                    "alt": "Small turbines, one with magenta flare and Fl.Y, one with 18 between arrows",
+                    "description": "Wind turbine, lit wind turbine and wind turbine with vertical clearance",
+                    "id": "L5.1"
+                },
+                {
+                    "symbol": "Sections/L/WindFarmWithRestrictedArea.png",
+                    "alt": "Dashed rectangles with turbines in circles, one magenta with no-entry sign",
+                    "description": "Wind farm, wind farm with restricted area",
+                    "id": "L5.2"
+                },
+                {
+                    "symbol": "Sections/L/ProductionPlatformOilDerrick.png",
+                    "alt": "Small square with dot and magenta flare",
+                    "description": "Production platform, Platform, Oil derrick",
+                    "id": "L10"
+                },
+                {
+                    "symbol": "Sections/L/FlareStack.png",
+                    "alt": "Square with dot labelled Fla",
+                    "description": "Flare stack (at sea)",
+                    "id": "L11"
+                },
+                {
+                    "symbol": "Sections/L/FixedSinglePointMooringIncludingAnchor.png",
+                    "alt": "Square with dot, magenta flare and SPM",
+                    "description": "Fixed Single Point Mooring, including Single Anchor Leg Mooring (SALM), Articulated Loading Column (ALC)",
+                    "id": "L12"
+                },
+                {
+                    "symbol": "Sections/L/FloatingSinglePointMooringIncludingCatenary.png",
+                    "alt": "Floating structure with a ring and magenta flare",
+                    "description": "Floating Single Point Mooring, including Catenary Anchor Leg Mooring (CALM), Single Buoy Mooring (SBM)",
+                    "id": "L16"
+                },
+                {
+                    "symbol": "Sections/L/MooredStorageTankerIncludingFSUAnd.png",
+                    "alt": "Elongated vessel shape with magenta flare",
+                    "description": "Moored storage tanker including FSU and FPSO",
+                    "id": "L17"
+                },
+                {
+                    "symbol": "Sections/L/MooringGroundTackleForFixingFloating.png",
+                    "alt": "Magenta dashed line ending in an anchor",
+                    "description": "Mooring ground tackle for fixing floating structures",
+                    "id": "L18"
+                },
+                {
+                    "symbol": "Sections/L/ProductionWellWithDepthWhereKnown.png",
+                    "alt": "Dotted circles, one with 15, labelled Prod Well with dashed lines",
+                    "description": "Production well, with depth where known",
+                    "id": "L20"
+                },
+                {
+                    "symbol": "Sections/L/SuspendedWellOverWhichTheDepth1.png",
+                    "alt": "Blue dotted circle labelled Well",
+                    "description": "Suspended well (wellhead and pipes projecting from the seabed) over which the depth is unknown",
+                    "id": "L21.1"
+                },
+                {
+                    "symbol": "Sections/L/SuspendedWellOverWhichTheDepth2.png",
+                    "alt": "Dotted circle around 15 labelled Well",
+                    "description": "Suspended well over which the depth is known",
+                    "id": "L21.2"
+                },
+                {
+                    "symbol": "Sections/L/SuspendedWellWithHeightOfWellhead.png",
+                    "alt": "Dotted circle labelled Well (5.7)",
+                    "description": "Suspended well with height of wellhead above the sea floor",
+                    "id": "L21.3"
+                },
+                {
+                    "symbol": "Sections/L/SiteOfClearedPlatform.png",
+                    "alt": "Hash sign",
+                    "description": "Site of cleared platform",
+                    "id": "L22"
+                },
+                {
+                    "symbol": "Sections/L/AboveWaterWellhead.png",
+                    "alt": "Magenta flare with star, small circle with Pipe, dotted circle with Pipe (1₈)",
+                    "description": "Above-water wellhead (lit and unlit). The drying height or height above height datum is charted if known",
+                    "id": "L23"
+                },
+                {
+                    "symbol": "Sections/L/UnderwaterTurbine.png",
+                    "alt": "Blue dotted circle labelled Turbine, flare with star labelled FL(2) Underwater Turbine",
+                    "description": "Underwater turbine",
+                    "id": "L24"
+                },
+                {
+                    "symbol": "Sections/L/SubmarineCable.png",
+                    "alt": "Magenta wavy line",
+                    "description": "Submarine cable",
+                    "id": "L30.1"
+                },
+                {
+                    "symbol": "Sections/L/SubmarineCableArea.png",
+                    "alt": "Magenta wavy lines with T-shaped ticks on both sides",
+                    "description": "Submarine cable area",
+                    "id": "L30.2"
+                },
+                {
+                    "symbol": "Sections/L/SubmarinePowerCable.png",
+                    "alt": "Magenta wavy line with a zigzag break",
+                    "description": "Submarine power cable",
+                    "id": "L31.1"
+                },
+                {
+                    "symbol": "Sections/L/SubmarinePowerCableArea.png",
+                    "alt": "Magenta wavy lines with zigzag breaks and ticks",
+                    "description": "Submarine power cable area",
+                    "id": "L31.2"
+                },
+                {
+                    "symbol": "Sections/L/DisusedSubmarineCable.png",
+                    "alt": "Magenta broken wavy line",
+                    "description": "Disused submarine cable",
+                    "id": "L32"
+                },
+                {
+                    "symbol": "Sections/L/SupplyPipeline.png",
+                    "alt": "Magenta dashed arrow lines labelled Oil, Gas, Chem and Water",
+                    "description": "Supply pipeline: unspecified, oil, gas, chemicals, water",
+                    "id": "L40.1"
+                },
+                {
+                    "symbol": "Sections/L/SupplyPipelineArea.png",
+                    "alt": "Magenta arrow lines with ticks labelled Oil, Gas, Chem and Water",
+                    "description": "Supply pipeline area: unspecified, oil, gas, chemicals, water",
+                    "id": "L40.2"
+                },
+                {
+                    "symbol": "Sections/L/OutfallAndIntake.png",
+                    "alt": "Black dashed arrow lines labelled Water, Sewer, Outfall and Intake",
+                    "description": "Outfall and intake: unspecified, water, sewer, outfall, intake",
+                    "id": "L41.1"
+                },
+                {
+                    "symbol": "Sections/L/OutfallAndIntakeArea.png",
+                    "alt": "Arrow lines with ticks labelled Water, Sewer, Outfall and Intake",
+                    "description": "Outfall and intake area: unspecified, water, sewer, outfall, intake",
+                    "id": "L41.2"
+                },
+                {
+                    "symbol": "Sections/L/BuriedPipelinePipe.png",
+                    "alt": "Magenta arrow line labelled Buried 1·6m",
+                    "description": "Buried pipeline / pipe (with nominal depth to which buried)",
+                    "id": "L42"
+                },
+                {
+                    "symbol": "Sections/L/DiffuserCrib.png",
+                    "alt": "Arrow line ending at a blue dotted circle with 3₂ and Obstn",
+                    "description": "Diffuser, crib",
+                    "id": "L43"
+                },
+                {
+                    "symbol": "Sections/L/DisusedPipelinePipe.png",
+                    "alt": "Rows of short broken arrow segments in magenta and black",
+                    "description": "Disused pipeline / pipe",
+                    "id": "L44"
+                }
+            ]
+        },
+        {
+            "title": "M: Tracks, Routes",
+            "id": "M",
+            "items": [
+                {
+                    "symbol": "Sections/M/LeadingLine.png",
+                    "alt": "Beacon marks on dashed lines with 270·5° and 2 Bns ≠ 270·5°",
+                    "description": "Leading line (≠ means “in line”, the continuous line is the track to be followed)",
+                    "id": "M1"
+                },
+                {
+                    "symbol": "Sections/M/TransitClearingLine.png",
+                    "alt": "Beacon marks on a dashed line with 270·5°, island and headland, Island open of Headland",
+                    "description": "Transit (other than leading line), Clearing line",
+                    "id": "M2"
+                },
+                {
+                    "symbol": "Sections/M/RecommendedTrackBasedOnASystem.png",
+                    "alt": "Solid line labelled 090°-270°",
+                    "description": "Recommended track based on a system of fixed marks",
+                    "id": "M3"
+                },
+                {
+                    "symbol": "Sections/M/RecommendedTrackNotBasedOnA.png",
+                    "alt": "Dashed lines with arrowheads labelled 090°-270°",
+                    "description": "Recommended track not based on a system of fixed marks",
+                    "id": "M4"
+                },
+                {
+                    "symbol": "Sections/M/OneWayTrackAndDWBased.png",
+                    "alt": "Magenta flares on dashed lines, open arrow and DW (see Note)",
+                    "description": "One-way track and DW track based on a system of fixed marks",
+                    "id": "M5.1"
+                },
+                {
+                    "symbol": "Sections/M/OneWayTrackAndDWNot.png",
+                    "alt": "Dashed line with open arrow and 270°, dashed curve with DW",
+                    "description": "One-way track and DW track not based on a system of fixed marks",
+                    "id": "M5.2"
+                },
+                {
+                    "symbol": "Sections/M/RecommendedTrackWithMaximumAuthorisedDraught.png",
+                    "alt": "Solid and dashed lines with 7·3m between arrowheads",
+                    "description": "Recommended track with maximum authorised draught",
+                    "id": "M6"
+                },
+                {
+                    "symbol": "Sections/M/EstablishedDirectionOfTrafficFlow.png",
+                    "alt": "Magenta open arrow",
+                    "description": "Established (mandatory) direction of traffic flow",
+                    "id": "M10"
+                },
+                {
+                    "symbol": "Sections/M/RecommendedDirectionOfTrafficFlow.png",
+                    "alt": "Magenta dashed open arrow",
+                    "description": "Recommended direction of traffic flow",
+                    "id": "M11"
+                },
+                {
+                    "symbol": "Sections/M/SeparationLine1.png",
+                    "alt": "Wide magenta band",
+                    "description": "Separation line (large-scale, small-scale)",
+                    "id": "M12-1"
+                },
+                {
+                    "symbol": "Sections/M/SeparationLine2.png",
+                    "alt": "Narrow magenta band",
+                    "description": "Separation line (large-scale, small-scale)",
+                    "id": "M12-2"
+                },
+                {
+                    "symbol": "Sections/M/SeparationZone.png",
+                    "alt": "Large magenta tinted area",
+                    "description": "Separation zone",
+                    "id": "M13"
+                },
+                {
+                    "symbol": "Sections/M/LimitOfRestrictedRouteingMeasureE.png",
+                    "alt": "Magenta dashed line with T-shaped ticks",
+                    "description": "Limit of restricted routeing measure (e.g. Inshore Traffic Zone, Area to be Avoided)",
+                    "id": "M14"
+                },
+                {
+                    "symbol": "Sections/M/LimitOfRouteingMeasure.png",
+                    "alt": "Magenta dashed line",
+                    "description": "Limit of routeing measure",
+                    "id": "M15"
+                },
+                {
+                    "symbol": "Sections/M/PrecautionaryArea.png",
+                    "alt": "Magenta dashed boxes with warning triangle and Precautionary Area",
+                    "description": "Precautionary area",
+                    "id": "M16"
+                },
+                {
+                    "symbol": "Sections/M/ArchipelagicSeaLaneAxisLineAnd.png",
+                    "alt": "Magenta tinted wedges along a line labelled ASL (see Note)",
+                    "description": "Archipelagic Sea Lane; axis line and limit beyond which vessels shall not navigate",
+                    "id": "M17"
+                },
+                {
+                    "symbol": "Sections/M/FairwayDesignatedByRegulatoryAuthority.png",
+                    "alt": "Magenta dashed boxes with FAIRWAY 7.3m and FAIRWAY <7.3m>",
+                    "description": "Fairway, designated by regulatory authority: with minimum depth, with maximum authorised draught",
+                    "id": "M18"
+                },
+                {
+                    "symbol": "Sections/M/RadarSurveillanceStation.png",
+                    "alt": "Small circle with dot above Radar Surveillance Station",
+                    "description": "Radar surveillance station",
+                    "id": "M30"
+                },
+                {
+                    "symbol": "Sections/M/RadarRange.png",
+                    "alt": "Magenta arc labelled Ra Cuxhaven",
+                    "description": "Radar range",
+                    "id": "M31"
+                },
+                {
+                    "symbol": "Sections/M/RadarReferenceLine.png",
+                    "alt": "Magenta dashed line labelled Ra",
+                    "description": "Radar reference line",
+                    "id": "M32.1"
+                },
+                {
+                    "symbol": "Sections/M/RadarReferenceLineCoincidingWithA.png",
+                    "alt": "Magenta line labelled Ra and 090° - 270°",
+                    "description": "Radar reference line coinciding with a leading line",
+                    "id": "M32.2"
+                },
+                {
+                    "symbol": "Sections/M/RadioCallingInPointWayOr.png",
+                    "alt": "Magenta circles with pointers, one with B and one with 7",
+                    "description": "Radio calling-in point, way point, or reporting point (with designation, if any) showing direction(s) of vessel movement",
+                    "id": "M40.1"
+                },
+                {
+                    "symbol": "Sections/M/RadioReportingLineShowingDirectionOf.png",
+                    "alt": "Magenta dashed line with diamond-shaped marks",
+                    "description": "Radio reporting line (with designation, if any) showing direction(s) of vessel movement",
+                    "id": "M40.2"
+                },
+                {
+                    "symbol": "Sections/M/Ferry.png",
+                    "alt": "Magenta dashed line with a small oval",
+                    "description": "Ferry",
+                    "id": "M50"
+                },
+                {
+                    "symbol": "Sections/M/CableFerry.png",
+                    "alt": "Dashed line with a small oval labelled Cable Ferry",
+                    "description": "Cable Ferry",
+                    "id": "M51"
+                }
+            ]
+        },
+        {
+            "title": "N: Areas, Limits",
+            "id": "N",
+            "items": [
+                {
+                    "symbol": "Sections/N/MaritimeLimitInGeneralUsuallyImplying1.png",
+                    "alt": "Dashed line with grey tint band and (for emphasis)",
+                    "description": "Maritime limit in general, usually implying permanent physical obstructions",
+                    "id": "N1.1"
+                },
+                {
+                    "symbol": "Sections/N/MaritimeLimitInGeneralUsuallyImplying2.png",
+                    "alt": "Magenta dashed line with magenta tint band and (for emphasis)",
+                    "description": "Maritime limit in general, usually implying no permanent physical obstructions",
+                    "id": "N1.2"
+                },
+                {
+                    "symbol": "Sections/N/LimitOfRestrictedArea.png",
+                    "alt": "Magenta line with T-shaped ticks and tint band, (for emphasis)",
+                    "description": "Limit of restricted area",
+                    "id": "N2.1"
+                },
+                {
+                    "symbol": "Sections/N/LimitOfAreaIntoWhichEntry.png",
+                    "alt": "Magenta T-ticked lines with no-entry signs",
+                    "description": "Limit of area into which entry is prohibited",
+                    "id": "N2.2"
+                },
+                {
+                    "symbol": "Sections/N/ReportedAnchorage.png",
+                    "alt": "Black anchor",
+                    "description": "Reported anchorage (no defined limits)",
+                    "id": "N10"
+                },
+                {
+                    "symbol": "Sections/N/AnchorBerths.png",
+                    "alt": "Magenta anchors with circled A, N53 and 14",
+                    "description": "Anchor berths",
+                    "id": "N11.1"
+                },
+                {
+                    "symbol": "Sections/N/AnchorBerthsWithSwingingCircleShown.png",
+                    "alt": "Magenta anchors with labels inside dashed circles",
+                    "description": "Anchor berths with swinging circle shown",
+                    "id": "N11.2"
+                },
+                {
+                    "symbol": "Sections/N/AnchorageAreaInGeneral.png",
+                    "alt": "Magenta dashed lines and box with small anchors",
+                    "description": "Anchorage area in general",
+                    "id": "N12.1"
+                },
+                {
+                    "symbol": "Sections/N/NumberedAnchorageArea.png",
+                    "alt": "Magenta dashed line with anchors and No 1",
+                    "description": "Numbered anchorage area",
+                    "id": "N12.2"
+                },
+                {
+                    "symbol": "Sections/N/NamedAnchorageArea.png",
+                    "alt": "Magenta dashed line with anchors and Oaze",
+                    "description": "Named anchorage area",
+                    "id": "N12.3"
+                },
+                {
+                    "symbol": "Sections/N/DeepWaterAnchorageAreaForDraught.png",
+                    "alt": "Magenta dashed line with anchors and DW",
+                    "description": "Deep water anchorage area, anchorage area for deep-draught vessels",
+                    "id": "N12.4"
+                },
+                {
+                    "symbol": "Sections/N/TankerAnchorageArea.png",
+                    "alt": "Magenta dashed line with anchors and Tanker",
+                    "description": "Tanker anchorage area. This symbol may be adapted for other types of vessel, e.g. small craft",
+                    "id": "N12.5"
+                },
+                {
+                    "symbol": "Sections/N/AnchorageAreaForPeriodsUpTo.png",
+                    "alt": "Magenta dashed line with anchors and 24h",
+                    "description": "Anchorage area for periods up to 24 hours",
+                    "id": "N12.6"
+                },
+                {
+                    "symbol": "Sections/N/ExplosivesAnchorageArea.png",
+                    "alt": "Magenta dashed line with anchors and a small burst mark",
+                    "description": "Explosives anchorage area",
+                    "id": "N12.7"
+                },
+                {
+                    "symbol": "Sections/N/QuarantineAnchorageArea.png",
+                    "alt": "Magenta dashed line with anchors and a circle with cross",
+                    "description": "Quarantine anchorage area",
+                    "id": "N12.8"
+                },
+                {
+                    "symbol": "Sections/N/ReservedAnchorageArea.png",
+                    "alt": "Magenta dashed line with anchors and Reserved (see Note)",
+                    "description": "Reserved anchorage area",
+                    "id": "N12.9"
+                },
+                {
+                    "symbol": "Sections/N/SeaplaneOperatingArea.png",
+                    "alt": "Magenta dashed line with a seaplane and a seaplane in a circle",
+                    "description": "Seaplane operating area",
+                    "id": "N13"
+                },
+                {
+                    "symbol": "Sections/N/AnchorageForSeaplanes.png",
+                    "alt": "Seaplane in a circle and a magenta anchor",
+                    "description": "Anchorage for seaplanes",
+                    "id": "N14"
+                },
+                {
+                    "symbol": "Sections/N/AnchoringProhibited.png",
+                    "alt": "Magenta T-ticked lines with crossed-out anchors",
+                    "description": "Anchoring prohibited",
+                    "id": "N20"
+                },
+                {
+                    "symbol": "Sections/N/FishingProhibited.png",
+                    "alt": "Magenta T-ticked lines with crossed-out fish",
+                    "description": "Fishing prohibited",
+                    "id": "N21"
+                },
+                {
+                    "symbol": "Sections/N/EnvironmentallySensitiveSeaAreas.png",
+                    "alt": "Magenta T-ticked line with MR and the word Example",
+                    "description": "Environmentally Sensitive Sea Areas: Limit of marine reserve, national park, non-specific nature reserve",
+                    "id": "N22-1"
+                },
+                {
+                    "symbol": "Sections/N/BirdSanctuarySeal.png",
+                    "alt": "Magenta dashed lines with bird and seal silhouettes, Examples",
+                    "description": "Bird sanctuary, seal sanctuary (other animal silhouettes may be used for specialized areas)",
+                    "id": "N22-2"
+                },
+                {
+                    "symbol": "Sections/N/ParticularlySensitiveSeaArea.png",
+                    "alt": "Magenta T-ticked line with tint band and PSSA",
+                    "description": "Particularly Sensitive Sea Area (coloured tint band may vary in width between 1 and 5mm)",
+                    "id": "N22-3"
+                },
+                {
+                    "symbol": "Sections/N/ExplosivesDumpingGround1.png",
+                    "alt": "Magenta T-ticked line, Explosives Dumping Ground and a dashed circle",
+                    "description": "Explosives dumping ground",
+                    "id": "N23.1"
+                },
+                {
+                    "symbol": "Sections/N/ExplosivesDumpingGround2.png",
+                    "alt": "Magenta T-ticked line with Explosives Dumping Ground (disused)",
+                    "description": "Explosives dumping ground (disused)",
+                    "id": "N23.2"
+                },
+                {
+                    "symbol": "Sections/N/DumpingGroundForChemicalWaste.png",
+                    "alt": "Magenta T-ticked line with Dumping Ground for Chemicals",
+                    "description": "Dumping ground for chemical waste",
+                    "id": "N24"
+                },
+                {
+                    "symbol": "Sections/N/DegaussingRange.png",
+                    "alt": "Magenta T-ticked line with a wavy section and Degaussing Range",
+                    "description": "Degaussing range",
+                    "id": "N25"
+                },
+                {
+                    "symbol": "Sections/N/HistoricWreckAndRestrictedArea.png",
+                    "alt": "Magenta dashed circle with ticks labelled Historic Wk",
+                    "description": "Historic wreck and restricted area",
+                    "id": "N26"
+                },
+                {
+                    "symbol": "5kn",
+                    "alt": null,
+                    "description": "Maximum speed",
+                    "id": "N27"
+                },
+                {
+                    "symbol": "Sections/N/FiringPracticeArea.png",
+                    "alt": "Magenta dashed line with small burst marks",
+                    "description": "Firing practice area",
+                    "id": "N30"
+                },
+                {
+                    "symbol": "Sections/N/MilitaryRestrictedAreaIntoWhichEntry.png",
+                    "alt": "Magenta T-ticked lines with no-entry signs",
+                    "description": "Military restricted area into which entry is prohibited",
+                    "id": "N31"
+                },
+                {
+                    "symbol": "Sections/N/MineLayingPracticeArea.png",
+                    "alt": "Magenta dashed line with small open circles",
+                    "description": "Mine-laying (and counter-measure) practice area",
+                    "id": "N32"
+                },
+                {
+                    "symbol": "Sections/N/SubmarineTransitLaneAndExerciseArea.png",
+                    "alt": "Magenta dashed lines with submarine outline and SUBMARINE EXERCISE AREA",
+                    "description": "Submarine transit lane and exercise area",
+                    "id": "N33"
+                },
+                {
+                    "symbol": "Sections/N/Minefield.png",
+                    "alt": "Magenta T-ticked line labelled Minefield",
+                    "description": "Minefield",
+                    "id": "N34"
+                },
+                {
+                    "symbol": "Sections/N/InternationalBoundaryOnLand.png",
+                    "alt": "Line of plus signs between DANMARK and DEUTSCHLAND on yellow",
+                    "description": "International boundary on land",
+                    "id": "N40"
+                },
+                {
+                    "symbol": "Sections/N/InternationalMaritimeBoundary.png",
+                    "alt": "Magenta dash-and-plus line between UNITED KINGDOM and NORGE",
+                    "description": "International maritime boundary",
+                    "id": "N41"
+                },
+                {
+                    "symbol": "Sections/N/StraightTerritorialSeaBaselineWithBase.png",
+                    "alt": "Magenta straight lines connecting points along a coast",
+                    "description": "Straight territorial sea baseline with base point",
+                    "id": "N42"
+                },
+                {
+                    "symbol": "Sections/N/SeawardLimitOfTerritorialSea.png",
+                    "alt": "Magenta line with two plus signs",
+                    "description": "Seaward limit of Territorial Sea",
+                    "id": "N43"
+                },
+                {
+                    "symbol": "Sections/N/SeawardLimitOfContiguousZone.png",
+                    "alt": "Magenta line with one plus sign",
+                    "description": "Seaward limit of Contiguous Zone",
+                    "id": "N44"
+                },
+                {
+                    "symbol": "Sections/N/NationalFisheryLimits.png",
+                    "alt": "Thin and dashed lines with small fish marks",
+                    "description": "National fishery limits",
+                    "id": "N45"
+                },
+                {
+                    "symbol": "Sections/N/LimitOfContinentalShelf.png",
+                    "alt": "Magenta line labelled Continental Shelf",
+                    "description": "Limit of Continental Shelf",
+                    "id": "N46"
+                },
+                {
+                    "symbol": "Sections/N/LimitOfExclusiveEconomicZone.png",
+                    "alt": "Magenta line labelled EEZ",
+                    "description": "Limit of Exclusive Economic Zone",
+                    "id": "N47"
+                },
+                {
+                    "symbol": "Sections/N/CustomsLimit.png",
+                    "alt": "Magenta dashed line with circles containing a bar",
+                    "description": "Customs limit",
+                    "id": "N48"
+                },
+                {
+                    "symbol": "Sections/N/HarbourLimit.png",
+                    "alt": "Magenta dashed line labelled Harbour Limit",
+                    "description": "Harbour limit",
+                    "id": "N49"
+                },
+                {
+                    "symbol": "Sections/N/LimitOfFastIceFront1.png",
+                    "alt": "(2008) above a line with hanging ticks",
+                    "description": "Limit of fast ice, Ice front (with date)",
+                    "id": "N60.1-1"
+                },
+                {
+                    "symbol": "Sections/N/LimitOfFastIceFront2.png",
+                    "alt": "Black line with irregular hanging ticks",
+                    "description": "Limit of fast ice, Ice front (with date)",
+                    "id": "N60.1-2"
+                },
+                {
+                    "symbol": "Sections/N/LimitOfSeaIceSeasonal1.png",
+                    "alt": "Magenta (2008) above a magenta line with hanging ticks",
+                    "description": "Limit of sea ice (pack ice) seasonal (with date)",
+                    "id": "N60.2-1"
+                },
+                {
+                    "symbol": "Sections/N/LimitOfSeaIceSeasonal2.png",
+                    "alt": "Magenta line with irregular hanging ticks",
+                    "description": "Limit of sea ice (pack ice) seasonal (with date)",
+                    "id": "N60.2-2"
+                },
+                {
+                    "symbol": "Sections/N/FloatingBarrierIncludingLogPondsSecurity.png",
+                    "alt": "Dashed line with dots labelled Log Pond",
+                    "description": "Floating barrier, including log ponds, security barriers, ice booms, shark nets",
+                    "id": "N61"
+                },
+                {
+                    "symbol": "Sections/N/SpoilGround1.png",
+                    "alt": "Grey dashed corner line labelled Spoil Ground",
+                    "description": "Spoil ground",
+                    "id": "N62.1"
+                },
+                {
+                    "symbol": "Sections/N/SpoilGround2.png",
+                    "alt": "Grey dashed corner line labelled Spoil Ground (disused)",
+                    "description": "Spoil ground (disused)",
+                    "id": "N62.2"
+                },
+                {
+                    "symbol": "Sections/N/ExtractionArea.png",
+                    "alt": "Magenta dashed corner line labelled Extraction Area",
+                    "description": "Extraction (dredging) area",
+                    "id": "N63"
+                },
+                {
+                    "symbol": "Sections/N/CargoTranshipmentArea.png",
+                    "alt": "Magenta dashed corner line labelled Cargo Transhipment Area",
+                    "description": "Cargo transhipment area",
+                    "id": "N64"
+                },
+                {
+                    "symbol": "Sections/N/IncinerationArea.png",
+                    "alt": "Magenta dashed corner line labelled Incineration Area",
+                    "description": "Incineration area",
+                    "id": "N65"
+                }
+            ]
+        },
+        {
+            "title": "P: Lights",
+            "id": "P",
+            "items": [
+                {
+                    "symbol": "Sections/P/MajorLightMinorLighthouse.png",
+                    "alt": "Magenta flares with stars, Lt and LtHo",
+                    "description": "Major light, minor light, light, lighthouse",
+                    "id": "P1"
+                },
+                {
+                    "symbol": "Sections/P/LightedOffshorePlatform.png",
+                    "alt": "Square with dot and magenta flare",
+                    "description": "Lighted offshore platform",
+                    "id": "P2"
+                },
+                {
+                    "symbol": "Sections/P/LightedBeaconTower.png",
+                    "alt": "Beacon tower with BY and magenta flare, star with BnTr",
+                    "description": "Lighted beacon tower",
+                    "id": "P3"
+                },
+                {
+                    "symbol": "Sections/P/LightedBeacon.png",
+                    "alt": "Small beacons with R and BRB and magenta flares, star with Bn",
+                    "description": "Lighted beacon",
+                    "id": "P4"
+                },
+                {
+                    "symbol": "Sections/P/LightedBuoyantBeaconResilient.png",
+                    "alt": "Beacon with R and magenta flare, star with Bn",
+                    "description": "Lighted buoyant beacon, resilient beacon",
+                    "id": "P5"
+                },
+                {
+                    "symbol": "Sections/P/MajorFloatingLight.png",
+                    "alt": "Light vessel outline with magenta flare",
+                    "description": "Major floating light (light vessel, major light float, Large Automatic Navigational Buoy (LANBY))",
+                    "id": "P6"
+                },
+                {
+                    "symbol": "F",
+                    "alt": null,
+                    "description": "Fixed",
+                    "id": "P10.1"
+                },
+                {
+                    "symbol": "Oc",
+                    "alt": null,
+                    "description": "Single-occulting",
+                    "id": "P10.2-1"
+                },
+                {
+                    "symbol": "Oc(2)",
+                    "alt": null,
+                    "description": "Group-occulting",
+                    "id": "P10.2-2"
+                },
+                {
+                    "symbol": "Oc(2+3)",
+                    "alt": null,
+                    "description": "Composite group-occulting",
+                    "id": "P10.2-3"
+                },
+                {
+                    "symbol": "Iso",
+                    "alt": null,
+                    "description": "Isophase",
+                    "id": "P10.3"
+                },
+                {
+                    "symbol": "Fl",
+                    "alt": null,
+                    "description": "Single-flashing",
+                    "id": "P10.4-1"
+                },
+                {
+                    "symbol": "Fl(3)",
+                    "alt": null,
+                    "description": "Group-flashing",
+                    "id": "P10.4-2"
+                },
+                {
+                    "symbol": "Fl(2+1)",
+                    "alt": null,
+                    "description": "Composite group-flashing",
+                    "id": "P10.4-3"
+                },
+                {
+                    "symbol": "LFl",
+                    "alt": null,
+                    "description": "Long-flashing (flash 2s or longer)",
+                    "id": "P10.5"
+                },
+                {
+                    "symbol": "Q",
+                    "alt": null,
+                    "description": "Continuous quick",
+                    "id": "P10.6-1"
+                },
+                {
+                    "symbol": "Q(3)",
+                    "alt": null,
+                    "description": "Group quick",
+                    "id": "P10.6-2"
+                },
+                {
+                    "symbol": "IQ",
+                    "alt": null,
+                    "description": "Interrupted quick",
+                    "id": "P10.6-3"
+                },
+                {
+                    "symbol": "VQ",
+                    "alt": null,
+                    "description": "Continuous very quick",
+                    "id": "P10.7-1"
+                },
+                {
+                    "symbol": "VQ(3)",
+                    "alt": null,
+                    "description": "Group very quick",
+                    "id": "P10.7-2"
+                },
+                {
+                    "symbol": "IVQ",
+                    "alt": null,
+                    "description": "Interrupted very quick",
+                    "id": "P10.7-3"
+                },
+                {
+                    "symbol": "UQ",
+                    "alt": null,
+                    "description": "Continuous ultra quick",
+                    "id": "P10.8-1"
+                },
+                {
+                    "symbol": "IUQ",
+                    "alt": null,
+                    "description": "Interrupted ultra quick",
+                    "id": "P10.8-2"
+                },
+                {
+                    "symbol": "Mo(K)",
+                    "alt": null,
+                    "description": "Morse Code",
+                    "id": "P10.9"
+                },
+                {
+                    "symbol": "FFl",
+                    "alt": null,
+                    "description": "Fixed and flashing",
+                    "id": "P10.10"
+                },
+                {
+                    "symbol": "Al.WR",
+                    "alt": null,
+                    "description": "Alternating",
+                    "id": "P10.11"
+                },
+                {
+                    "symbol": "W",
+                    "alt": null,
+                    "description": "White (for lights, only on sector and alternating lights)",
+                    "id": "P11.1"
+                },
+                {
+                    "symbol": "R",
+                    "alt": null,
+                    "description": "Red",
+                    "id": "P11.2"
+                },
+                {
+                    "symbol": "G",
+                    "alt": null,
+                    "description": "Green",
+                    "id": "P11.3"
+                },
+                {
+                    "symbol": "Bu",
+                    "alt": null,
+                    "description": "Blue",
+                    "id": "P11.4"
+                },
+                {
+                    "symbol": "Vi",
+                    "alt": null,
+                    "description": "Violet",
+                    "id": "P11.5"
+                },
+                {
+                    "symbol": "Y",
+                    "alt": null,
+                    "description": "Yellow",
+                    "id": "P11.6"
+                },
+                {
+                    "symbol": "Y",
+                    "alt": null,
+                    "description": "Orange",
+                    "id": "P11.7-1"
+                },
+                {
+                    "symbol": "Or",
+                    "alt": null,
+                    "description": "Orange",
+                    "id": "P11.7-2"
+                },
+                {
+                    "symbol": "Y",
+                    "alt": null,
+                    "description": "Amber",
+                    "id": "P11.8-1"
+                },
+                {
+                    "symbol": "Am",
+                    "alt": null,
+                    "description": "Amber",
+                    "id": "P11.8-2"
+                },
+                {
+                    "symbol": "Sections/P/ColoursOfLightsShownOnStandard.png",
+                    "alt": "Flares and dots in red, yellow and green, and a coloured arc",
+                    "description": "Colours of lights shown on standard charts, on multicoloured charts and on multicoloured charts at sector lights",
+                    "id": "P11.8-3"
+                },
+                {
+                    "symbol": "90s 2·5s",
+                    "alt": null,
+                    "description": "Period in seconds and tenths of a second",
+                    "id": "P12"
+                },
+                {
+                    "symbol": "12m",
+                    "alt": null,
+                    "description": "Elevation of light given in metres",
+                    "id": "P13"
+                },
+                {
+                    "symbol": "15M",
+                    "alt": null,
+                    "description": "Light with single range",
+                    "id": "P14-1"
+                },
+                {
+                    "symbol": "15/10M",
+                    "alt": null,
+                    "description": "Light with two different ranges",
+                    "id": "P14-2"
+                },
+                {
+                    "symbol": "15-7M",
+                    "alt": null,
+                    "description": "Light with three or more ranges",
+                    "id": "P14-3"
+                },
+                {
+                    "symbol": "(hor)",
+                    "alt": null,
+                    "description": "horizontally disposed",
+                    "id": "P15-1"
+                },
+                {
+                    "symbol": "(vert)",
+                    "alt": null,
+                    "description": "vertically disposed",
+                    "id": "P15-2"
+                },
+                {
+                    "symbol": "Sections/P/LeadingLightsWithLineAndArcs.png",
+                    "alt": "Coastline with two lights, dashed sector lines and Oc labels",
+                    "description": "Leading lights with leading line (the firm line is the track to be followed) and arcs of visibility",
+                    "id": "P20.1"
+                },
+                {
+                    "symbol": "Sections/P/LeadingLights.png",
+                    "alt": "Lights on the coast with a leading line, Oc labels and 269·3°",
+                    "description": "Leading lights (≠ means “in line”; the firm line is the track to be followed; the light descriptions will be at the light stars or on the leading line, not usually both)",
+                    "id": "P20.2"
+                },
+                {
+                    "symbol": "Sections/P/LeadingLightsOnSmallScaleCharts.png",
+                    "alt": "Light on the coast labelled LdgOc.W&R",
+                    "description": "Leading lights on small-scale charts",
+                    "id": "P20.3"
+                },
+                {
+                    "symbol": "Sections/P/LightsInLine.png",
+                    "alt": "Pairs of lights on both banks with lines at 270°",
+                    "description": "Lights in line (marking the sides of a channel)",
+                    "id": "P21"
+                },
+                {
+                    "symbol": "Rear Lt or Upper Lt",
+                    "alt": null,
+                    "description": "Rear or upper light",
+                    "id": "P22"
+                },
+                {
+                    "symbol": "Front Lt or Lower Lt",
+                    "alt": null,
+                    "description": "Front or lower light",
+                    "id": "P23"
+                },
+                {
+                    "symbol": "Sections/P/DirectionLightWithNarrowSectorAnd.png",
+                    "alt": "Light with a narrow sector around a line labelled Dir 269°",
+                    "description": "Direction light with narrow sector and course to be followed, flanked by darkness or unintensified light",
+                    "id": "P30.1"
+                },
+                {
+                    "symbol": "Sections/P/DirectionLightWithCourseToBe.png",
+                    "alt": "Lights with lines labelled Dir 299° and Dir 255·5°",
+                    "description": "Direction light with course to be followed, uncharted sector is flanked by darkness or unintensified light",
+                    "id": "P30.2"
+                },
+                {
+                    "symbol": "Sections/P/DirectionLightWithNarrowFairwaySector1.png",
+                    "alt": "Light with a fan of dashed sector lines labelled Al.WG, Oc.W.4s and Al.WR",
+                    "description": "Direction light with narrow fairway sector flanked by light sectors of different characters on standard charts",
+                    "id": "P30.3"
+                },
+                {
+                    "symbol": "Sections/P/DirectionLightWithNarrowFairwaySector2.png",
+                    "alt": "Light with dashed sector lines and green, yellow and red arcs",
+                    "description": "Direction light with narrow fairway sector flanked by light sectors of different characters on multicoloured charts",
+                    "id": "P30.4"
+                },
+                {
+                    "symbol": "Sections/P/MoirEffectLightVariableArrowMark.png",
+                    "alt": "Magenta triangle, Dir and a line with 286°",
+                    "description": "Moiré effect light (day and night), variable arrow mark. Arrows show when course alteration needed",
+                    "id": "P31"
+                },
+                {
+                    "symbol": "Sections/P/SectorLightOnStandardCharts.png",
+                    "alt": "Light with dashed sector lines and letters G, W and R",
+                    "description": "Sector light on standard charts",
+                    "id": "P40.1"
+                },
+                {
+                    "symbol": "Sections/P/SectorLightOnMulticolouredCharts.png",
+                    "alt": "Light with sector lines and green, yellow and red arcs",
+                    "description": "Sector light on multicoloured charts",
+                    "id": "P40.2"
+                },
+                {
+                    "symbol": "Sections/P/SectorLightsOnStandardChartsThe.png",
+                    "alt": "Lights with sector lines along a fairway, labels Name and Oc",
+                    "description": "Sector lights on standard charts, the white sector limits marking the sides of the fairway",
+                    "id": "P41.1"
+                },
+                {
+                    "symbol": "Sections/P/SectorLightsOnMulticolouredChartsThe.png",
+                    "alt": "Lights with coloured sector bands along a fairway",
+                    "description": "Sector lights on multicoloured charts, the white sector limits marking the sides of the fairway",
+                    "id": "P41.2"
+                },
+                {
+                    "symbol": "Sections/P/MainLightVisibleAllRoundWith.png",
+                    "alt": "Light with Fl(3)10s62m25M and F.R.55m12M, dashed sector over a danger",
+                    "description": "Main light visible all-round with red subsidiary light seen over danger",
+                    "id": "P42"
+                },
+                {
+                    "symbol": "Sections/P/AllRoundLightWithObscuredSector.png",
+                    "alt": "Light on the shore with dashed sector lines and Obscd",
+                    "description": "All-round light with obscured sector",
+                    "id": "P43"
+                },
+                {
+                    "symbol": "Sections/P/LightWithArcOfVisibilityDeliberately.png",
+                    "alt": "Light with short sector lines marked G, W and R",
+                    "description": "Light with arc of visibility deliberately restricted",
+                    "id": "P44"
+                },
+                {
+                    "symbol": "Sections/P/LightWithFaintSector.png",
+                    "alt": "Light on the shore with a sector labelled Faint",
+                    "description": "Light with faint sector",
+                    "id": "P45"
+                },
+                {
+                    "symbol": "Sections/P/LightWithIntensifiedSector1.png",
+                    "alt": "Light Oc.R.8s with sector lines R.5M and R.9M",
+                    "description": "Light with intensified sector",
+                    "id": "P46-1"
+                },
+                {
+                    "symbol": "Sections/P/LightWithIntensifiedSector2.png",
+                    "alt": "Light Oc.R.8s5M with sector lines R and R.Intens",
+                    "description": "Light with intensified sector",
+                    "id": "P46-2"
+                },
+                {
+                    "symbol": "Sections/P/LightsExhibitedOnlyWhenSpeciallyNeeded.png",
+                    "alt": "Magenta flare with star and F.R(occas)",
+                    "description": "Lights exhibited only when specially needed (e.g. for fishing vessels, ferries) and some private lights",
+                    "id": "P50"
+                },
+                {
+                    "symbol": "Sections/P/DaytimeLight.png",
+                    "alt": "Magenta flare with star and Fl.10s40m27M (F.37m11M Day)",
+                    "description": "Daytime light (charted only where the character shown by day differs from that shown at night)",
+                    "id": "P51"
+                },
+                {
+                    "symbol": "Sections/P/FogLight.png",
+                    "alt": "Magenta flare with star and Q.WRG.5m10-3M (Fl.5s Fog)",
+                    "description": "Fog light (exhibited only in fog, or character changes in fog)",
+                    "id": "P52"
+                },
+                {
+                    "symbol": "Sections/P/UnwatchedLightWithNoStandbyOr.png",
+                    "alt": "Magenta flare with star and Fl.5s(U)",
+                    "description": "Unwatched (unmanned) light with no standby or emergency arrangements",
+                    "id": "P53"
+                },
+                {
+                    "symbol": "(temp)",
+                    "alt": null,
+                    "description": "Temporary",
+                    "id": "P54"
+                },
+                {
+                    "symbol": "(exting)",
+                    "alt": null,
+                    "description": "Extinguished",
+                    "id": "P55"
+                },
+                {
+                    "symbol": "Sections/P/AeroLight.png",
+                    "alt": "Magenta flare with star and AeroAl.Fl.WG.7·5s11M",
+                    "description": "Aero light (may be unreliable)",
+                    "id": "P60"
+                },
+                {
+                    "symbol": "Sections/P/AirObstructionLightOfHighIntensity.png",
+                    "alt": "Magenta flare with star, AeroF.R.353m11M and RADIO MAST (353)",
+                    "description": "Air obstruction light of high intensity",
+                    "id": "P61.1"
+                },
+                {
+                    "symbol": "Sections/P/AirObstructionLightsOfLowIntensity.png",
+                    "alt": "Small mast with radiating lines, (89) and (R Lts)",
+                    "description": "Air obstruction lights of low intensity",
+                    "id": "P61.2"
+                },
+                {
+                    "symbol": "Fog Det Lt",
+                    "alt": null,
+                    "description": "Fog detector light",
+                    "id": "P62"
+                },
+                {
+                    "symbol": "Sections/P/FloodlitFloodlightingOfAStructure.png",
+                    "alt": "Magenta fan shape and (illuminated)",
+                    "description": "Floodlit, floodlighting of a structure",
+                    "id": "P63"
+                },
+                {
+                    "symbol": "Sections/P/StripLight.png",
+                    "alt": "Strip of land with lights labelled F, F.R and Iso",
+                    "description": "Strip light",
+                    "id": "P64"
+                },
+                {
+                    "symbol": "Sections/P/PrivateLightOtherThanOneExhibited.png",
+                    "alt": "Magenta flare with star and F.R(priv)",
+                    "description": "Private light other than one exhibited occasionally",
+                    "id": "P65"
+                }
+            ]
+        },
+        {
+            "title": "Q: Buoys, Beacons",
+            "id": "Q",
+            "items": [
+                {
+                    "symbol": "Sections/Q/PositionOfBuoyOrBeacon.png",
+                    "alt": "Small circle on a line",
+                    "description": "Position of buoy or beacon",
+                    "id": "Q1"
+                },
+                {
+                    "symbol": "Sections/Q/SingleColourGreenAndBlack.png",
+                    "alt": "Five black buoy shapes labelled G, B, G, G and G",
+                    "description": "Single colour; green (G) and black (B)",
+                    "id": "Q2"
+                },
+                {
+                    "symbol": "Sections/Q/SingleColourOtherThanGreenAnd.png",
+                    "alt": "Six buoy shapes labelled R, R, Y, Y, Or and R",
+                    "description": "Single colour other than green and black: red (R), yellow (Y), orange (Or)",
+                    "id": "Q3"
+                },
+                {
+                    "symbol": "Sections/Q/MultipleColoursInHorizontalBands.png",
+                    "alt": "Buoys with horizontal bands labelled BY, GRG and BRB",
+                    "description": "Multiple colours in horizontal bands: the colour sequence is from top to bottom",
+                    "id": "Q4"
+                },
+                {
+                    "symbol": "Sections/Q/MultipleColoursInVerticalOrDiagonal.png",
+                    "alt": "Buoys with stripes labelled RW, RW, BuY and RW",
+                    "description": "Multiple colours in vertical or diagonal stripes; the darker colour is given first. In these examples, red(R), white(W), blue (Bu), yellow (Y) & black(B)",
+                    "id": "Q5"
+                },
+                {
+                    "symbol": "Sections/Q/LightedMarksOnStandardCharts.png",
+                    "alt": "Buoys with magenta flares labelled Fl.G and Fl.R",
+                    "description": "Lighted marks on standard charts (examples)",
+                    "id": "Q7"
+                },
+                {
+                    "symbol": "Sections/Q/LightedMarksOnMulticolouredCharts.png",
+                    "alt": "Buoys with red, yellow and green flares labelled Fl.R, Iso and Fl.G",
+                    "description": "Lighted marks on multicoloured charts (examples)",
+                    "id": "Q8"
+                },
+                {
+                    "symbol": "Sections/Q/IALASystemBuoyTopmarks.png",
+                    "alt": "Two rows of small topmark shapes on buoys",
+                    "description": "IALA System buoy topmarks (beacon topmarks shown upright)",
+                    "id": "Q9"
+                },
+                {
+                    "symbol": "Sections/Q/BeaconWithTopmarkColourRadarReflector.png",
+                    "alt": "Beacon with topmark and radar reflector, R, Name and 2",
+                    "description": "Beacon with topmark, colour, radar reflector and designation (example)",
+                    "id": "Q10"
+                },
+                {
+                    "symbol": "Sections/Q/BuoyWithTopmarkColourRadarReflector.png",
+                    "alt": "Black conical buoy with radar reflector, G, Name and 3",
+                    "description": "Buoy with topmark, colour, radar reflector and designation (example). Radar reflectors are not generally charted on IALA System buoys",
+                    "id": "Q11"
+                },
+                {
+                    "symbol": "Sections/Q/ConicalBuoyNunOgival.png",
+                    "alt": "Pointed buoy shape, outlined and black",
+                    "description": "Conical buoy, nun buoy, ogival buoy",
+                    "id": "Q20"
+                },
+                {
+                    "symbol": "Sections/Q/CanBuoyCylindrical.png",
+                    "alt": "Flat-topped buoy shape, outlined and black",
+                    "description": "Can buoy, cylindrical buoy",
+                    "id": "Q21"
+                },
+                {
+                    "symbol": "Sections/Q/SphericalBuoy.png",
+                    "alt": "Rounded buoy shape, outlined",
+                    "description": "Spherical buoy",
+                    "id": "Q22"
+                },
+                {
+                    "symbol": "Sections/Q/PillarBuoy.png",
+                    "alt": "Tall pointed buoy shapes, outlined and black",
+                    "description": "Pillar buoy",
+                    "id": "Q23"
+                },
+                {
+                    "symbol": "Sections/Q/SparBuoySpindle.png",
+                    "alt": "Black narrow upright buoy shape",
+                    "description": "Spar buoy, spindle buoy",
+                    "id": "Q24"
+                },
+                {
+                    "symbol": "Sections/Q/BarrelBuoyTun.png",
+                    "alt": "Low rounded buoy shape, outlined and black",
+                    "description": "Barrel buoy, tun buoy",
+                    "id": "Q25"
+                },
+                {
+                    "symbol": "Sections/Q/Superbuoy.png",
+                    "alt": "Wide flat buoy outline",
+                    "description": "Superbuoy. Superbuoys are very large buoys, e.g. a LANBY (P6) is a navigational aid mounted on a circular hull of about 5m diameter. Oil or gas installation buoys (L16) and ODAS buoys (Q58), of similar size, are shown by variations of the superbuoy symbol",
+                    "id": "Q26"
+                },
+                {
+                    "symbol": "Sections/Q/LightFloatAsPartOfIALA.png",
+                    "alt": "Light float with G, magenta flare and Fl.G.3s Name",
+                    "description": "Light float as part of IALA System",
+                    "id": "Q30"
+                },
+                {
+                    "symbol": "Sections/Q/LightFloatNotPartOfIALA.png",
+                    "alt": "Light float outline with magenta flare and Fl.10s",
+                    "description": "Light float not part of IALA System",
+                    "id": "Q31"
+                },
+                {
+                    "symbol": "Sections/Q/MooringBuoy.png",
+                    "alt": "Black and outlined mooring buoy shapes with hash signs",
+                    "description": "Mooring buoy",
+                    "id": "Q40"
+                },
+                {
+                    "symbol": "Sections/Q/LightedMooringBuoy.png",
+                    "alt": "Black mooring buoy with magenta flare and Fl.Y.2·5s",
+                    "description": "Lighted mooring buoy (example)",
+                    "id": "Q41"
+                },
+                {
+                    "symbol": "Sections/Q/TrotMooringBuoysWithGroundTackle.png",
+                    "alt": "Black buoys on a dashed line with circled 1 and 2 and magenta anchors",
+                    "description": "Trot, mooring buoys with ground tackle and berth numbers",
+                    "id": "Q42"
+                },
+                {
+                    "symbol": "Sections/Q/MooringBuoyWithTelegraphicOrTelephonic.png",
+                    "alt": "Black mooring buoy with a magenta wavy line",
+                    "description": "Mooring buoy with telegraphic or telephonic communications",
+                    "id": "Q43"
+                },
+                {
+                    "symbol": "Sections/Q/NumerousMoorings.png",
+                    "alt": "Dashed rectangle labelled Small Craft Moorings",
+                    "description": "Numerous moorings (example)",
+                    "id": "Q44"
+                },
+                {
+                    "symbol": "Sections/Q/FiringDangerAreaBuoy.png",
+                    "alt": "Round buoy with X topmark, Y and DZ",
+                    "description": "Firing danger area (Danger Zone) buoy",
+                    "id": "Q50"
+                },
+                {
+                    "symbol": "Sections/Q/Target.png",
+                    "alt": "Round buoy with X topmark, Y and Target",
+                    "description": "Target",
+                    "id": "Q51"
+                },
+                {
+                    "symbol": "Sections/Q/MarkerShip.png",
+                    "alt": "Round buoy with X topmark, Y and Marker Ship",
+                    "description": "Marker Ship",
+                    "id": "Q52"
+                },
+                {
+                    "symbol": "Sections/Q/Barge.png",
+                    "alt": "Round buoy with X topmark, Y and Barge",
+                    "description": "Barge",
+                    "id": "Q53"
+                },
+                {
+                    "symbol": "Sections/Q/DegaussingRangeBuoy.png",
+                    "alt": "Round buoy with X topmark, Y and DG",
+                    "description": "Degaussing Range buoy",
+                    "id": "Q54"
+                },
+                {
+                    "symbol": "Sections/Q/CableBuoy.png",
+                    "alt": "Round buoy with X topmark, Y and Cable",
+                    "description": "Cable buoy",
+                    "id": "Q55"
+                },
+                {
+                    "symbol": "Sections/Q/SpoilGroundBuoy.png",
+                    "alt": "Round buoy with X topmark and Y",
+                    "description": "Spoil ground buoy",
+                    "id": "Q56"
+                },
+                {
+                    "symbol": "Sections/Q/BuoyMarkingOutfall.png",
+                    "alt": "Round buoy with X topmark and Y",
+                    "description": "Buoy marking outfall",
+                    "id": "Q57"
+                },
+                {
+                    "symbol": "Sections/Q/DataCollectionBuoyOfSuperbuoySize.png",
+                    "alt": "Wide flat buoy outline labelled ODAS",
+                    "description": "Data collection buoy (Ocean Data Acquisition System) of superbuoy size",
+                    "id": "Q58"
+                },
+                {
+                    "symbol": "Sections/Q/BuoyMarkingWaveRecorderOrCurrent.png",
+                    "alt": "Round buoy with X topmark and Y",
+                    "description": "Buoy marking wave recorder or current meter",
+                    "id": "Q59"
+                },
+                {
+                    "symbol": "Sections/Q/BuoyMarkingRecreationZone.png",
+                    "alt": "Round buoy with X topmark and Y",
+                    "description": "Buoy marking recreation zone",
+                    "id": "Q62"
+                },
+                {
+                    "symbol": "Sections/Q/BuoyPrivatelyMaintained.png",
+                    "alt": "Round buoy with X topmark, Y and (priv)",
+                    "description": "Buoy privately maintained (example)",
+                    "id": "Q70"
+                },
+                {
+                    "symbol": "Sections/Q/SeasonalBuoy.png",
+                    "alt": "Round buoy with X topmark, Y and (Apr-Oct)",
+                    "description": "Seasonal buoy (the example shows a yellow spherical buoy on station between April and October)",
+                    "id": "Q71"
+                },
+                {
+                    "symbol": "Sections/Q/BeaconInGeneralCharacteristicsUnknownOr.png",
+                    "alt": "Small black beacon and a small circle with Bn",
+                    "description": "Beacon in general, characteristics unknown or chart scale too small to show",
+                    "id": "Q80"
+                },
+                {
+                    "symbol": "Sections/Q/BeaconWithColourNoDistinctiveTopmark.png",
+                    "alt": "Black beacon labelled BW",
+                    "description": "Beacon with colour, no distinctive topmark (example)",
+                    "id": "Q81"
+                },
+                {
+                    "symbol": "Sections/Q/BeaconWithColourAndTopmark.png",
+                    "alt": "Beacons with topmarks labelled R, BY and BRB",
+                    "description": "Beacon with colour and topmark (examples)",
+                    "id": "Q82"
+                },
+                {
+                    "symbol": "Sections/Q/BeaconOnSubmergedRock.png",
+                    "alt": "Beacon with topmark on a slanting line labelled BRB",
+                    "description": "Beacon on submerged rock (topmark and colours as appropriate)",
+                    "id": "Q83"
+                },
+                {
+                    "symbol": "Sections/Q/StakePole.png",
+                    "alt": "Thin upright line on a base",
+                    "description": "Stake, pole",
+                    "id": "Q90"
+                },
+                {
+                    "symbol": "Sections/Q/PerchStake1.png",
+                    "alt": "Upright stake with forked top",
+                    "description": "Perch, stake",
+                    "id": "Q91-1"
+                },
+                {
+                    "symbol": "Sections/Q/PerchStake2.png",
+                    "alt": "Upright stake with arrow top",
+                    "description": "Perch, stake",
+                    "id": "Q91-2"
+                },
+                {
+                    "symbol": "Sections/Q/Withy1.png",
+                    "alt": "Stake with downward branches",
+                    "description": "Withy",
+                    "id": "Q92-1"
+                },
+                {
+                    "symbol": "Sections/Q/Withy2.png",
+                    "alt": "Stake with upward branches",
+                    "description": "Withy",
+                    "id": "Q92-2"
+                },
+                {
+                    "symbol": "Sections/Q/Cairn.png",
+                    "alt": "Small stack of rounded stones",
+                    "description": "Cairn",
+                    "id": "Q100"
+                },
+                {
+                    "symbol": "Sections/Q/ColouredOrWhiteMark.png",
+                    "alt": "Small square and Mk",
+                    "description": "Coloured or white mark (the colour may be indicated)",
+                    "id": "Q101"
+                },
+                {
+                    "symbol": "Sections/Q/ColouredTopmarkWithFunctionOfA.png",
+                    "alt": "Beacons with topmarks, labelled RW",
+                    "description": "Coloured topmark (colour known or unknown) with function of a beacon",
+                    "id": "Q102.1"
+                },
+                {
+                    "symbol": "Sections/Q/PaintedBoardsWithFunctionOfLeading.png",
+                    "alt": "Beacons on a dashed line labelled RW, continuing as a solid line",
+                    "description": "Painted boards with function of leading beacons",
+                    "id": "Q102.2"
+                },
+                {
+                    "symbol": "Sections/Q/BeaconsTowersWithoutAndWithTopmarks.png",
+                    "alt": "Six small tower shapes labelled R, G, R, G, BY and BRB",
+                    "description": "Beacons towers without and with topmarks and colours (examples)",
+                    "id": "Q110"
+                },
+                {
+                    "symbol": "Sections/Q/LatticeBeacon.png",
+                    "alt": "Small lattice tower",
+                    "description": "Lattice beacon",
+                    "id": "Q111"
+                },
+                {
+                    "symbol": "Sections/Q/LeadingBeacons.png",
+                    "alt": "Two beacons on a dashed line continuing as a solid line with 270°",
+                    "description": "Leading beacons (the firm line is the track to be followed)",
+                    "id": "Q120"
+                },
+                {
+                    "symbol": "Sections/Q/BeaconsMarkingAClearingLineOr.png",
+                    "alt": "Two beacons on a dashed line with 270°",
+                    "description": "Beacons marking a clearing line or transit",
+                    "id": "Q121"
+                },
+                {
+                    "symbol": "Sections/Q/BeaconsMarkingMeasuredDistanceWithQuoted.png",
+                    "alt": "Coast with pairs of beacons and dashed lines, Measured Distance 1852m",
+                    "description": "Beacons marking measured distance with quoted bearings. The track is shown as a firm line if it is to be followed precisely",
+                    "id": "Q122"
+                },
+                {
+                    "symbol": "Sections/Q/CableLandingBeacon.png",
+                    "alt": "Beacon with Y and a magenta wavy line",
+                    "description": "Cable landing beacon (example)",
+                    "id": "Q123"
+                },
+                {
+                    "symbol": "Sections/Q/RefugeBeacon1.png",
+                    "alt": "Large beacon tower with topmark and Ref",
+                    "description": "Refuge beacon",
+                    "id": "Q124-1"
+                },
+                {
+                    "symbol": "Sections/Q/RefugeBeacon2.png",
+                    "alt": "Black beacon with Ref",
+                    "description": "Refuge beacon",
+                    "id": "Q124-2"
+                },
+                {
+                    "symbol": "Sections/Q/NoticeBoard.png",
+                    "alt": "Small board on a post",
+                    "description": "Notice board",
+                    "id": "Q126"
+                }
+            ]
+        },
+        {
+            "title": "R: Fog Signals",
+            "id": "R",
+            "items": [
+                {
+                    "symbol": "Sections/R/PositionOfFogSignal.png",
+                    "alt": "Magenta arcs, buoy with arcs and flare, and a circled float",
+                    "description": "Position of fog signal. Type of fog signal not stated",
+                    "id": "R1"
+                },
+                {
+                    "symbol": "(man)",
+                    "alt": null,
+                    "description": "Manually activated",
+                    "id": "R10"
+                },
+                {
+                    "symbol": "Explos",
+                    "alt": null,
+                    "description": "Explosive",
+                    "id": "R10"
+                },
+                {
+                    "symbol": "Dia",
+                    "alt": null,
+                    "description": "Diaphone",
+                    "id": "R11"
+                },
+                {
+                    "symbol": "Siren",
+                    "alt": null,
+                    "description": "Siren",
+                    "id": "R12"
+                },
+                {
+                    "symbol": "Horn",
+                    "alt": null,
+                    "description": "Horn (nautophone, reed, tyfon)",
+                    "id": "R13"
+                },
+                {
+                    "symbol": "Bell",
+                    "alt": null,
+                    "description": "Bell",
+                    "id": "R14"
+                },
+                {
+                    "symbol": "Whis",
+                    "alt": null,
+                    "description": "Whistle",
+                    "id": "R15"
+                },
+                {
+                    "symbol": "Gong",
+                    "alt": null,
+                    "description": "Gong",
+                    "id": "R16"
+                }
+            ]
+        },
+        {
+            "title": "S: Radar, Radio, Satellite Navigation Systems",
+            "id": "S",
+            "items": [
+                {
+                    "symbol": "Sections/S/CoastRadarStationProvidingRangeAnd.png",
+                    "alt": "Magenta circle with dot labelled Ra",
+                    "description": "Coast radar station providing range and bearing from station on request",
+                    "id": "S1"
+                },
+                {
+                    "symbol": "Sections/S/RamarkRadarBeaconTransmittingContinuously.png",
+                    "alt": "Magenta circle with dot labelled Ramark",
+                    "description": "Ramark, radar beacon transmitting continuously",
+                    "id": "S2"
+                },
+                {
+                    "symbol": "Sections/S/RadarTransponderBeaconWithMorseIdentification1.png",
+                    "alt": "Magenta circle with dot labelled Racon(Z) (3cm)",
+                    "description": "Radar transponder beacon, with morse identification, responding within the 3cm (X) band",
+                    "id": "S3.1"
+                },
+                {
+                    "symbol": "Sections/S/RadarTransponderBeaconWithMorseIdentification2.png",
+                    "alt": "Magenta circle with dot labelled Racon(Z) (10cm)",
+                    "description": "Radar transponder beacon, with morse identification, responding within the 10cm (S) band",
+                    "id": "S3.2"
+                },
+                {
+                    "symbol": "Sections/S/RadarTransponderBeaconWithMorseIdentification3.png",
+                    "alt": "Magenta circle with dot labelled Racon(Z)",
+                    "description": "Radar transponder beacon, with morse identification, responding within the 3cm (X) and the 10cm (S) bands (or band unknown)",
+                    "id": "S3.3"
+                },
+                {
+                    "symbol": "Sections/S/RadarTransponderBeaconWithSectorOf1.png",
+                    "alt": "Magenta circle with dashed sector lines, Racon(P) and Racon Obscd",
+                    "description": "Radar transponder beacon with sector of obscured reception",
+                    "id": "S3.4-1"
+                },
+                {
+                    "symbol": "Sections/S/RadarTransponderBeaconWithSectorOf2.png",
+                    "alt": "Magenta circle with dashed sector lines labelled Racon(Z)",
+                    "description": "Radar transponder beacon with sector of reception",
+                    "id": "S3.4-2"
+                },
+                {
+                    "symbol": "Sections/S/LeadingRadarTransponderBeacons.png",
+                    "alt": "Two magenta circles on a dashed line, Racon and Racons ≠ 270",
+                    "description": "Leading radar transponder beacons (‡ and ≠ mean “in line”)",
+                    "id": "S3.5-1"
+                },
+                {
+                    "symbol": "Sections/S/LeadingRadarTransponderBeaconsCoincidentWith.png",
+                    "alt": "Two magenta circles with lights on a dashed line, Lts ≠ 270 and Racons ≠ 270",
+                    "description": "Leading radar transponder beacons coincident with leading lights",
+                    "id": "S3.5-2"
+                },
+                {
+                    "symbol": "Sections/S/RadarTransponderBeaconsOnFloatingMarks.png",
+                    "alt": "Magenta circles around a buoy and a float, labelled Racon",
+                    "description": "Radar transponder beacons on floating marks (examples)",
+                    "id": "S3.6"
+                },
+                {
+                    "symbol": "Sections/S/RadarReflector.png",
+                    "alt": "Small arc with short rays",
+                    "description": "Radar reflector (not usually charted on IALA System buoys and buoyant beacons)",
+                    "id": "S4"
+                },
+                {
+                    "symbol": "Sections/S/RadarConspicuousFeature.png",
+                    "alt": "Small arc with short rays",
+                    "description": "Radar conspicuous feature",
+                    "id": "S5"
+                }
+            ]
+        },
+        {
+            "title": "T: Services",
+            "id": "T",
+            "items": [
+                {
+                    "symbol": "Sections/T/PilotBoardingPlacePositionOfCruising1.png",
+                    "alt": "Magenta circle with a diamond shape",
+                    "description": "Pilot boarding place, position of pilot cruising vessel",
+                    "id": "T1.1"
+                },
+                {
+                    "symbol": "Sections/T/PilotBoardingPlacePositionOfCruising2.png",
+                    "alt": "Magenta circle with a diamond shape and Name",
+                    "description": "Pilot boarding place, position of pilot cruising vessel, with name (e.g. District, Port)",
+                    "id": "T1.2"
+                },
+                {
+                    "symbol": "Sections/T/PilotBoardingPlacePositionOfCruising3.png",
+                    "alt": "Magenta circle with a diamond shape and Note",
+                    "description": "Pilot boarding place, position of pilot cruising vessel, with note (e.g. Tanker, Disembarkation)",
+                    "id": "T1.3"
+                },
+                {
+                    "symbol": "Sections/T/PilotsTransferredByHelicopter.png",
+                    "alt": "Magenta circle with a diamond shape and H",
+                    "description": "Pilots transferred by helicopter",
+                    "id": "T1.4"
+                },
+                {
+                    "symbol": "Sections/T/PilotOfficeWithLookoutStation.png",
+                    "alt": "Small black rectangle with Pilot lookout on yellow",
+                    "description": "Pilot office with Pilot lookout, Pilot lookout station",
+                    "id": "T2"
+                },
+                {
+                    "symbol": "Sections/T/PilotOffice.png",
+                    "alt": "Small black rectangle with Pilots on yellow",
+                    "description": "Pilot office",
+                    "id": "T3"
+                },
+                {
+                    "symbol": "Port Name (Pilots)",
+                    "alt": null,
+                    "description": "Port with pilotage service (boarding place not shown)",
+                    "id": "T4"
+                }
+            ]
+        }
+    ]
+}

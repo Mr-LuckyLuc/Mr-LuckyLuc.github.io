@@ -1,0 +1,925 @@
+,
+        {
+            "title": "D: Cultural Features",
+            "id": "D",
+            "items": [
+                {
+                    "symbol": "Sections/D/UrbanArea1.png",
+                    "alt": "Streets with a darker built-up area",
+                    "description": "Urban area",
+                    "id": "D1-1"
+                },
+                {
+                    "symbol": "Sections/D/UrbanArea2.png",
+                    "alt": "Streets with outlined blocks",
+                    "description": "Urban area",
+                    "id": "D1-2"
+                },
+                {
+                    "symbol": "Sections/D/SettlementWithScatteredBuildings1.png",
+                    "alt": "Streets with a few grey building shapes",
+                    "description": "Settlement with scattered buildings",
+                    "id": "D2-1"
+                },
+                {
+                    "symbol": "Sections/D/SettlementWithScatteredBuildings2.png",
+                    "alt": "Streets with a few black and outlined buildings",
+                    "description": "Settlement with scattered buildings",
+                    "id": "D2-2"
+                },
+                {
+                    "symbol": "Sections/D/Settlement1.png",
+                    "alt": "Small circle with Name",
+                    "description": "Settlement (on medium and small-scale charts)",
+                    "id": "D3-1"
+                },
+                {
+                    "symbol": "Sections/D/Settlement2.png",
+                    "alt": "Small rectangle with Name",
+                    "description": "Settlement (on medium and small-scale charts)",
+                    "id": "D3-2"
+                },
+                {
+                    "symbol": "Sections/D/InlandVillage1.png",
+                    "alt": "Cross-shaped symbol with Name",
+                    "description": "Inland village",
+                    "id": "D4-1"
+                },
+                {
+                    "symbol": "Sections/D/InlandVillage2.png",
+                    "alt": "Small black square with Name and HOTEL",
+                    "description": "Inland village",
+                    "id": "D4-2"
+                },
+                {
+                    "symbol": "Sections/D/Building.png",
+                    "alt": "Row of small black, grey and outlined building shapes",
+                    "description": "Building",
+                    "id": "D5"
+                },
+                {
+                    "symbol": "Sections/D/ImportantBuildingInBuiltUpArea1.png",
+                    "alt": "Built-up area with a black building and labels Name and Hotel",
+                    "description": "Important building in built-up area",
+                    "id": "D6-1"
+                },
+                {
+                    "symbol": "Sections/D/ImportantBuildingInBuiltUpArea2.png",
+                    "alt": "Streets with a black building and an outlined building labelled Hotel",
+                    "description": "Important building in built-up area",
+                    "id": "D6-2"
+                },
+                {
+                    "symbol": "Sections/D/StreetNameRoad1.png",
+                    "alt": "Street labelled NAME in capitals in a built-up area",
+                    "description": "Street name, Road name",
+                    "id": "D7-1"
+                },
+                {
+                    "symbol": "Sections/D/StreetNameRoad2.png",
+                    "alt": "Streets with the label NAME in capitals",
+                    "description": "Street name, Road name",
+                    "id": "D7-2"
+                },
+                {
+                    "symbol": "Sections/D/RuinRuinedLandmark1.png",
+                    "alt": "Dashed outline with label Ru",
+                    "description": "Ruin, Ruined landmark",
+                    "id": "D8-1"
+                },
+                {
+                    "symbol": "Sections/D/RuinRuinedLandmark2.png",
+                    "alt": "Small tower shape with label Ru",
+                    "description": "Ruin, Ruined landmark",
+                    "id": "D8-2"
+                },
+                {
+                    "symbol": "Sections/D/Motorway.png",
+                    "alt": "Double road lines with an interchange",
+                    "description": "Motorway",
+                    "id": "D10"
+                },
+                {
+                    "symbol": "Sections/D/Road1.png",
+                    "alt": "Two parallel lines",
+                    "description": "Road (hard surfaced)",
+                    "id": "D11-1"
+                },
+                {
+                    "symbol": "Sections/D/Road2.png",
+                    "alt": "Two close parallel lines",
+                    "description": "Road (hard surfaced)",
+                    "id": "D11-2"
+                },
+                {
+                    "symbol": "Sections/D/TrackPath1.png",
+                    "alt": "Double dashed line",
+                    "description": "Track, Path (loose or unsurfaced)",
+                    "id": "D12-1"
+                },
+                {
+                    "symbol": "Sections/D/TrackPath2.png",
+                    "alt": "Single dashed line",
+                    "description": "Track, Path (loose or unsurfaced)",
+                    "id": "D12-2"
+                },
+                {
+                    "symbol": "Sections/D/RailwayWithStation.png",
+                    "alt": "Thick dashed line and ticked line with black station blocks",
+                    "description": "Railway, with station",
+                    "id": "D13"
+                },
+                {
+                    "symbol": "Sections/D/Cutting.png",
+                    "alt": "Two oval shapes with tick marks along the edges",
+                    "description": "Cutting",
+                    "id": "D14"
+                },
+                {
+                    "symbol": "Sections/D/Embankment.png",
+                    "alt": "Two rows of dense vertical tick marks",
+                    "description": "Embankment",
+                    "id": "D15"
+                },
+                {
+                    "symbol": "Sections/D/Tunnel.png",
+                    "alt": "Road lines interrupted by a dashed section between brackets",
+                    "description": "Tunnel",
+                    "id": "D16"
+                },
+                {
+                    "symbol": "Sections/D/AirportAirfield.png",
+                    "alt": "Crossed runways, boxes labelled Airfield and Airport, aircraft in a circle",
+                    "description": "Airport, Airfield",
+                    "id": "D17"
+                },
+                {
+                    "symbol": "Sections/D/VerticalClearanceAboveHeightDatum1.png",
+                    "alt": "River with bridge and clearance 20 between arrows",
+                    "description": "Vertical clearance above Height Datum (in parentheses when displaced for clarity)",
+                    "id": "D20-1"
+                },
+                {
+                    "symbol": "Sections/D/VerticalClearanceAboveHeightDatum2.png",
+                    "alt": "Dashed line with dots over a river and (8.9) between arrows",
+                    "description": "Vertical clearance above Height Datum (in parentheses when displaced for clarity)",
+                    "id": "D20-2"
+                },
+                {
+                    "symbol": "Sections/D/HorizontalClearance.png",
+                    "alt": "Bridge over a river with horizontal arrows and 23",
+                    "description": "Horizontal clearance",
+                    "id": "D21"
+                },
+                {
+                    "symbol": "Sections/D/FixedBridgeWithVerticalClearance.png",
+                    "alt": "Bridge over a river with clearance figure 20",
+                    "description": "Fixed bridge with vertical clearance",
+                    "id": "D22"
+                },
+                {
+                    "symbol": "Sections/D/OpeningBridgeWithVerticalClearance.png",
+                    "alt": "Bridge with a gap symbol in the middle and clearance 20",
+                    "description": "Opening bridge (in general) with vertical clearance",
+                    "id": "D23.1"
+                },
+                {
+                    "symbol": "Sections/D/SwingBridgeWithVerticalClearance.png",
+                    "alt": "Bridge with gap symbol and label Swing Bridge",
+                    "description": "Swing bridge with vertical clearance",
+                    "id": "D23.2"
+                },
+                {
+                    "symbol": "Sections/D/LiftingBridgeWithVerticalClearance.png",
+                    "alt": "Bridge labelled Lifting Bridge with two clearance figures",
+                    "description": "Lifting bridge with vertical clearance (closed and open)",
+                    "id": "D23.3"
+                },
+                {
+                    "symbol": "Sections/D/BasculeBridgeWithVerticalClearance.png",
+                    "alt": "Bridge labelled Bascule Bridge with clearance figure",
+                    "description": "Bascule bridge with vertical clearance",
+                    "id": "D23.4"
+                },
+                {
+                    "symbol": "Sections/D/PontoonBridge.png",
+                    "alt": "Bridge labelled Pontoon Bridge",
+                    "description": "Pontoon bridge",
+                    "id": "D23.5"
+                },
+                {
+                    "symbol": "Sections/D/DrawBridgeWithVerticalClearance.png",
+                    "alt": "Bridge labelled Draw Bridge with clearance figure",
+                    "description": "Draw bridge with vertical clearance",
+                    "id": "D23.6"
+                },
+                {
+                    "symbol": "Sections/D/TransporterBridgeWithVerticalClearanceBetween.png",
+                    "alt": "Bridge labelled Transporter Bridge with clearance 20",
+                    "description": "Transporter bridge with vertical clearance between Height Datum and lowest part of structure",
+                    "id": "D24"
+                },
+                {
+                    "symbol": "Sections/D/OverheadTransporterAerialCablewayWithVertical.png",
+                    "alt": "Line of small circles across a river with clearance 20",
+                    "description": "Overhead transporter, Aerial cableway with vertical clearance",
+                    "id": "D25"
+                },
+                {
+                    "symbol": "Sections/D/PowerTransmissionLineWithPylonsAnd.png",
+                    "alt": "Dashed line with pylons labelled Pyl across a river, magenta clearance",
+                    "description": "Power transmission line with pylons and safe vertical clearance (see Note below D29)",
+                    "id": "D26"
+                },
+                {
+                    "symbol": "Sections/D/OverheadCableTelephoneLineTelegraphWith.png",
+                    "alt": "Dashed line with dots across a river with clearance 20",
+                    "description": "Overhead cable, Telephone line, Telegraph line with vertical clearance",
+                    "id": "D27"
+                },
+                {
+                    "symbol": "Sections/D/OverheadPipeWithVerticalClearance.png",
+                    "alt": "Line across a river labelled Overhead pipe with clearance 20",
+                    "description": "Overhead pipe with vertical clearance",
+                    "id": "D28"
+                },
+                {
+                    "symbol": "Sections/D/PipelineOnLand.png",
+                    "alt": "Dotted line on land continuing as a magenta dotted line in water",
+                    "description": "Pipeline on land",
+                    "id": "D29"
+                }
+            ]
+        }
+
+        ,
+        {
+            "title": "F: Ports",
+            "id": "F",
+            "items": [
+                {
+                    "symbol": "Sections/F/DykeLeveeBerm1.png",
+                    "alt": "Thick black line running along the coast on land",
+                    "description": "Dyke, Levee, Berm",
+                    "id": "F1-1"
+                },
+                {
+                    "symbol": "Sections/F/DykeLeveeBerm2.png",
+                    "alt": "Lines with rows of triangles along the shore on land",
+                    "description": "Dyke, Levee, Berm",
+                    "id": "F1-2"
+                },
+                {
+                    "symbol": "Sections/F/Seawall1.png",
+                    "alt": "Coastline edged with a green brick-pattern wall",
+                    "description": "Seawall (on large-scale charts)",
+                    "id": "F2.1"
+                },
+                {
+                    "symbol": "Sections/F/Seawall2.png",
+                    "alt": "Thick line with a yellow band along the shore",
+                    "description": "Seawall (on smaller scale charts)",
+                    "id": "F2.2-1"
+                },
+                {
+                    "symbol": "Sections/F/Seawall3.png",
+                    "alt": "Shoreline with a row of small triangles",
+                    "description": "Seawall (on smaller scale charts)",
+                    "id": "F2.2-2"
+                },
+                {
+                    "symbol": "Sections/F/Causeway.png",
+                    "alt": "Narrow path across water between green banks, labelled Causeway",
+                    "description": "Causeway",
+                    "id": "F3"
+                },
+                {
+                    "symbol": "Sections/F/Breakwater1.png",
+                    "alt": "Narrow arm into the water with solid outline",
+                    "description": "Breakwater (in general)",
+                    "id": "F4.1-1"
+                },
+                {
+                    "symbol": "Sections/F/Breakwater2.png",
+                    "alt": "Narrow arm into the water with dotted outline",
+                    "description": "Breakwater (in general)",
+                    "id": "F4.1-2"
+                },
+                {
+                    "symbol": "Sections/F/Breakwater3.png",
+                    "alt": "Arm into the water edged with small triangles",
+                    "description": "Breakwater (in general)",
+                    "id": "F4.1-3"
+                },
+                {
+                    "symbol": "Sections/F/Breakwater4.png",
+                    "alt": "Arm into the water edged with small circles",
+                    "description": "Breakwater (loose boulders, tetrapods, etc)",
+                    "id": "F4.2"
+                },
+                {
+                    "symbol": "Sections/F/Breakwater5.png",
+                    "alt": "Arm into the water with a brick pattern",
+                    "description": "Breakwater (slope of concrete or masonry)",
+                    "id": "F4.3"
+                },
+                {
+                    "symbol": "Sections/F/TrainingWall.png",
+                    "alt": "Lines in the water labelled Training Wall and Training Bank",
+                    "description": "Training wall",
+                    "id": "F5"
+                },
+                {
+                    "symbol": "Sections/F/Groyne1.png",
+                    "alt": "Groyne from the shore into the water, solid then dotted",
+                    "description": "Groyne (always dry), Groyne (intertidal), Groyne (always underwater)",
+                    "id": "F6-1"
+                },
+                {
+                    "symbol": "Sections/F/Groyne2.png",
+                    "alt": "Groynes crossing a green intertidal area into the water",
+                    "description": "Groyne (always dry), Groyne (intertidal), Groyne (always underwater)",
+                    "id": "F6-2"
+                },
+                {
+                    "symbol": "Sections/F/FishingHarbour.png",
+                    "alt": "Magenta circle with a fish",
+                    "description": "Fishing harbour",
+                    "id": "F10"
+                },
+                {
+                    "symbol": "Sections/F/Mole.png",
+                    "alt": "Arm into the water edged with boulders and a black berthing edge",
+                    "description": "Mole (with berthing facility)",
+                    "id": "F12"
+                },
+                {
+                    "symbol": "Sections/F/QuayWharf1.png",
+                    "alt": "Coastline with straight stepped edges along the water",
+                    "description": "Quay, Wharf",
+                    "id": "F13-1"
+                },
+                {
+                    "symbol": "Sections/F/QuayWharf2.png",
+                    "alt": "Stepped coastline with a thick black edge along the water",
+                    "description": "Quay, Wharf",
+                    "id": "F13-2"
+                },
+                {
+                    "symbol": "Sections/F/PierJetty1.png",
+                    "alt": "T-shaped structure extending into the water",
+                    "description": "Pier, Jetty",
+                    "id": "F14-1"
+                },
+                {
+                    "symbol": "Sections/F/PierJetty2.png",
+                    "alt": "Line from the shore into the water labelled Pier",
+                    "description": "Pier, Jetty",
+                    "id": "F14-2"
+                },
+                {
+                    "symbol": "Sections/F/PromenadePier.png",
+                    "alt": "Long narrow structure with a round end labelled Promenade Pier",
+                    "description": "Promenade pier",
+                    "id": "F15"
+                },
+                {
+                    "symbol": "Sections/F/Pontoon.png",
+                    "alt": "Small rectangle off the shore labelled Pontoon",
+                    "description": "Pontoon",
+                    "id": "F16"
+                },
+                {
+                    "symbol": "Sections/F/LandingForBoats1.png",
+                    "alt": "Dashed outline in a green area labelled Lndg",
+                    "description": "Landing for boats",
+                    "id": "F17-1"
+                },
+                {
+                    "symbol": "Sections/F/LandingForBoats2.png",
+                    "alt": "Short jetty in a green area labelled Lndg",
+                    "description": "Landing for boats",
+                    "id": "F17-2"
+                },
+                {
+                    "symbol": "Sections/F/StepsLandingStairs.png",
+                    "alt": "Small hatched steps along a quay edge",
+                    "description": "Steps, Landing stairs",
+                    "id": "F18"
+                },
+                {
+                    "symbol": "Sections/F/DesignationOfBerth.png",
+                    "alt": "Magenta circled 4, circled B and rounded 234",
+                    "description": "Designation of berth",
+                    "id": "F19"
+                },
+                {
+                    "symbol": "Sections/F/Dolphin.png",
+                    "alt": "Small octagon and small squares labelled Dn and Dns",
+                    "description": "Dolphin",
+                    "id": "F20"
+                },
+                {
+                    "symbol": "Sections/F/DeviationDolphin.png",
+                    "alt": "Small post with legs on a base line",
+                    "description": "Deviation dolphin",
+                    "id": "F21"
+                },
+                {
+                    "symbol": "Sections/F/MinorPostOrPile.png",
+                    "alt": "Small and large black dot",
+                    "description": "Minor post or pile",
+                    "id": "F22"
+                },
+                {
+                    "symbol": "Sections/F/SlipwayPatentSlipRamp1.png",
+                    "alt": "Ramp running into the water through a green area",
+                    "description": "Slipway, Patent slip, Ramp",
+                    "id": "F23-1"
+                },
+                {
+                    "symbol": "Sections/F/SlipwayPatentSlipRamp2.png",
+                    "alt": "Shore with parallel lines across a green area",
+                    "description": "Slipway, Patent slip, Ramp",
+                    "id": "F23-2"
+                },
+                {
+                    "symbol": "Sections/F/SlipwayPatentSlipRamp3.png",
+                    "alt": "Ramp with a dashed extension into the water",
+                    "description": "Slipway, Patent slip, Ramp",
+                    "id": "F23-3"
+                },
+                {
+                    "symbol": "Sections/F/SlipwayPatentSlipRamp4.png",
+                    "alt": "Green area by the shore labelled Slip",
+                    "description": "Slipway, Patent slip, Ramp",
+                    "id": "F23-4"
+                },
+                {
+                    "symbol": "Sections/F/GridironScrubbingGrid.png",
+                    "alt": "Hatched grid on a green foreshore",
+                    "description": "Gridiron, Scrubbing grid",
+                    "id": "F24"
+                },
+                {
+                    "symbol": "Sections/F/DryDockGraving.png",
+                    "alt": "Outline of a basin with a gate on land",
+                    "description": "Dry dock, Graving dock",
+                    "id": "F25"
+                },
+                {
+                    "symbol": "Sections/F/FloatingDock1.png",
+                    "alt": "Elongated shape with thick sides in the water",
+                    "description": "Floating dock",
+                    "id": "F26-1"
+                },
+                {
+                    "symbol": "Sections/F/FloatingDock2.png",
+                    "alt": "Small elongated shape labelled Floating Dock",
+                    "description": "Floating dock",
+                    "id": "F26-2"
+                },
+                {
+                    "symbol": "Sections/F/NonTidalBasinWetDock.png",
+                    "alt": "Basin with a gate and depth 7·6m",
+                    "description": "Non-tidal basin, Wet dock",
+                    "id": "F27"
+                },
+                {
+                    "symbol": "Sections/F/TidalBasinHarbour.png",
+                    "alt": "Basin open to the sea with a small structure",
+                    "description": "Tidal basin, Tidal harbour",
+                    "id": "F28"
+                },
+                {
+                    "symbol": "Sections/F/FloatingOilBarrier.png",
+                    "alt": "Dashed line in the water labelled Floating Barrier",
+                    "description": "Floating oil barrier",
+                    "id": "F29.1"
+                },
+                {
+                    "symbol": "Sections/F/WorksOnLandWithYearDate.png",
+                    "alt": "Dashed outline labelled Dock under construction (2004)",
+                    "description": "Works on land, with year date",
+                    "id": "F30"
+                },
+                {
+                    "symbol": "Sections/F/WorksAtSeaAreaUnderReclamation.png",
+                    "alt": "White area with dashed edge labelled Being reclaimed (2004)",
+                    "description": "Works at sea, Area under reclamation, with year date",
+                    "id": "F31"
+                },
+                {
+                    "symbol": "Under construction (2004) Works in progress (2004)",
+                    "alt": null,
+                    "description": "Works under construction, with year date",
+                    "id": "F32"
+                },
+                {
+                    "symbol": "Sections/F/Ruin.png",
+                    "alt": "Narrow structure into the water labelled Ru",
+                    "description": "Ruin",
+                    "id": "F33.1"
+                },
+                {
+                    "symbol": "Sections/F/RuinedPierPartlySubmergedAtHigh.png",
+                    "alt": "Broken pier in a green area labelled Ru",
+                    "description": "Ruined pier, partly submerged at high water",
+                    "id": "F33.2"
+                },
+                {
+                    "symbol": "Sections/F/Hulk1.png",
+                    "alt": "Yellow boat shape in the water labelled Hulk",
+                    "description": "Hulk",
+                    "id": "F34-1"
+                },
+                {
+                    "symbol": "Sections/F/Hulk2.png",
+                    "alt": "Small yellow boat shape labelled Hulk",
+                    "description": "Hulk",
+                    "id": "F34-2"
+                },
+                {
+                    "symbol": "Sections/F/Canal1.png",
+                    "alt": "Blue channel between two straight lines",
+                    "description": "Canal",
+                    "id": "F40-1"
+                },
+                {
+                    "symbol": "Sections/F/Canal2.png",
+                    "alt": "Straight line with small tick marks",
+                    "description": "Canal",
+                    "id": "F40-2"
+                },
+                {
+                    "symbol": "Sections/F/Lock1.png",
+                    "alt": "Narrow channel with gates labelled Lock",
+                    "description": "Lock (on large-scale charts)",
+                    "id": "F41.1"
+                },
+                {
+                    "symbol": "Sections/F/Lock2.png",
+                    "alt": "Channel with chevron-shaped gate lines",
+                    "description": "Lock (on smaller scale charts)",
+                    "id": "F41.2-1"
+                },
+                {
+                    "symbol": "Sections/F/Lock3.png",
+                    "alt": "Ticked line with a chevron mark",
+                    "description": "Lock (on smaller scale charts)",
+                    "id": "F41.2-2"
+                },
+                {
+                    "symbol": "Sections/F/CaissonGate.png",
+                    "alt": "Channel narrowing with a gate across",
+                    "description": "Caisson, Gate",
+                    "id": "F42"
+                },
+                {
+                    "symbol": "Sections/F/FloodBarrage.png",
+                    "alt": "Line with gates across the water labelled Flood Barrage",
+                    "description": "Flood barrage",
+                    "id": "F43"
+                },
+                {
+                    "symbol": "Sections/F/DamWeir1.png",
+                    "alt": "Structure across a river labelled Dam, with arrows",
+                    "description": "Dam, Weir",
+                    "id": "F44-1"
+                },
+                {
+                    "symbol": "Sections/F/DamWeir2.png",
+                    "alt": "River narrowing with a ticked line across it",
+                    "description": "Dam, Weir",
+                    "id": "F44-2"
+                },
+                {
+                    "symbol": "Sections/F/RollOnOffFerryTerminal.png",
+                    "alt": "Quay edge with a box labelled RoRo",
+                    "description": "Roll-on, Roll-off (RoRo) Ferry Terminal",
+                    "id": "F50"
+                },
+                {
+                    "symbol": "Sections/F/TransitShedWarehouse1.png",
+                    "alt": "Shaded blocks numbered 2 and 3 on a quay",
+                    "description": "Transit shed, Warehouse (with designation)",
+                    "id": "F51-1"
+                },
+                {
+                    "symbol": "Sections/F/TransitShedWarehouse2.png",
+                    "alt": "Outlined blocks numbered 2 and 3 on a quay",
+                    "description": "Transit shed, Warehouse (with designation)",
+                    "id": "F51-2"
+                },
+                {
+                    "symbol": "Sections/F/TimberYard.png",
+                    "alt": "Hash-like mark on a quay",
+                    "description": "Timber yard",
+                    "id": "F52"
+                },
+                {
+                    "symbol": "Sections/F/CraneTravellingOnRailway.png",
+                    "alt": "Small crane marks with (3t) along a quay line",
+                    "description": "Crane (with lifting capacity), Travelling crane on railway",
+                    "id": "F53.1"
+                },
+                {
+                    "symbol": "Sections/F/ContainerCrane.png",
+                    "alt": "Black crane mark with (50t) on a quay line",
+                    "description": "Container crane (with lifting capacity)",
+                    "id": "F53.2"
+                },
+                {
+                    "symbol": "Sections/F/Sheerlegs.png",
+                    "alt": "Small circle labelled SHEERLEGS on a quay line",
+                    "description": "Sheerlegs (conspicuous)",
+                    "id": "F53.3"
+                },
+                {
+                    "symbol": "Sections/F/HarbourMasterSOffice.png",
+                    "alt": "Small circle with an anchor-like mark",
+                    "description": "Harbour Master’s office",
+                    "id": "F60"
+                },
+                {
+                    "symbol": "Sections/F/CustomOffice.png",
+                    "alt": "Circle with a horizontal bar",
+                    "description": "Custom office",
+                    "id": "F61"
+                },
+                {
+                    "symbol": "Sections/F/HealthOfficeQuarantineBuilding.png",
+                    "alt": "Circle with a cross",
+                    "description": "Health office, Quarantine building",
+                    "id": "F62.1"
+                },
+                {
+                    "symbol": "Sections/F/Hospital.png",
+                    "alt": "Circle with a cross labelled Hospital",
+                    "description": "Hospital",
+                    "id": "F62.2"
+                },
+                {
+                    "symbol": "Sections/F/PostOffice.png",
+                    "alt": "Small envelope",
+                    "description": "Post office",
+                    "id": "F63"
+                }
+            ]
+        }
+
+        R:
+,
+                {
+                    "symbol": "Sections/R/SirenAtALighthouseGivingLong.png",
+                    "alt": "Magenta flare with star and arcs, Fl.3s70m29M Siren Mo(N)60s",
+                    "description": "Siren at a lighthouse, giving a long blast followed by a short one (N), repeated every 60 seconds",
+                    "id": "R20"
+                },
+                {
+                    "symbol": "Sections/R/WaveActuatedBellBuoy.png",
+                    "alt": "Buoy with magenta arcs labelled Bell",
+                    "description": "Wave-actuated bell buoy. The provision of a legend indicating number of emissions, and sometimes the period, distinguishes automatic bell or whistle buoys from those actuated by waves",
+                    "id": "R21"
+                },
+                {
+                    "symbol": "Sections/R/LightBuoyWithHornGivingA.png",
+                    "alt": "Buoy with magenta arcs and flare, YB and Q(6)+LFl.15s Horn(1)15sWhis",
+                    "description": "Light buoy, with horn giving a single blast every 15 seconds, in conjunction with a wave-actuated whistle",
+                    "id": "R22"
+                }
+        S:
+,
+                {
+                    "symbol": "Sections/S/NonDirectionalMarineOrAeromarineRadiobeacon.png",
+                    "alt": "Magenta circle with dot, Name and RC",
+                    "description": "Non-directional marine or aeromarine radiobeacon",
+                    "id": "S10"
+                },
+                {
+                    "symbol": "Sections/S/DirectionalRadiobeaconWithBearingLine.png",
+                    "alt": "Magenta circle with a dashed line, RD 269·5° and RD",
+                    "description": "Directional radiobeacon with bearing line",
+                    "id": "S11-1"
+                },
+                {
+                    "symbol": "Sections/S/DirectionalRadiobeaconCoincidentWithLeadingLights.png",
+                    "alt": "Lights and a magenta circle on a dashed line, Lts ≠ 270° and RD 270°",
+                    "description": "Directional radiobeacon coincident with leading lights",
+                    "id": "S11-2"
+                },
+                {
+                    "symbol": "Sections/S/RotatingPatternRadiobeacon.png",
+                    "alt": "Magenta circle with dot labelled RW",
+                    "description": "Rotating pattern radiobeacon",
+                    "id": "S12"
+                },
+                {
+                    "symbol": "Sections/S/ConsolBeacon.png",
+                    "alt": "Magenta circle with dot labelled Consol",
+                    "description": "Consol beacon",
+                    "id": "S13"
+                },
+                {
+                    "symbol": "Sections/S/RadioDirectionFindingStation.png",
+                    "alt": "Magenta circle with dot labelled RG",
+                    "description": "Radio direction-finding station",
+                    "id": "S14"
+                },
+                {
+                    "symbol": "Sections/S/CoastRadioStationProvidingQTGService.png",
+                    "alt": "Magenta circle with dot labelled R",
+                    "description": "Coast radio station providing QTG service",
+                    "id": "S15"
+                },
+                {
+                    "symbol": "Sections/S/AeronauticalRadiobeacon.png",
+                    "alt": "Magenta circle with dot labelled Aero RC",
+                    "description": "Aeronautical radiobeacon",
+                    "id": "S16"
+                },
+                {
+                    "symbol": "Sections/S/AutomaticIdentificationSystemTransmitter.png",
+                    "alt": "Magenta circle with dot labelled AIS",
+                    "description": "Automatic Identification System transmitter",
+                    "id": "S17.1"
+                },
+                {
+                    "symbol": "Sections/S/AutomaticIdentificationSystemTransmittersOnFloating.png",
+                    "alt": "Magenta circles around a buoy and a float labelled AIS",
+                    "description": "Automatic Identification System transmitters on floating marks (examples)",
+                    "id": "S17.2"
+                },
+                {
+                    "symbol": "WGS WGS72 WGS84",
+                    "alt": null,
+                    "description": "World Geodetic System, 1972 or 1984",
+                    "id": "S50"
+                },
+                {
+                    "symbol": "Sections/S/StationProvidingDifferentialGlobalPositioningSystem.png",
+                    "alt": "Magenta circle with dot labelled DGPS",
+                    "description": "Station providing Differential Global Positioning System corrections",
+                    "id": "S51"
+                }
+
+        T:
+,
+                {
+                    "symbol": "Sections/T/CoastguardStation.png",
+                    "alt": "Small black rectangle, circle and flag shapes with CG on yellow",
+                    "description": "Coastguard station",
+                    "id": "T10"
+                },
+                {
+                    "symbol": "Sections/T/CoastguardStationWithRescue.png",
+                    "alt": "Small black rectangle, circle and flag shapes with CG and lifeboat marks on yellow",
+                    "description": "Coastguard station with Rescue station",
+                    "id": "T11"
+                },
+                {
+                    "symbol": "Sections/T/RescueStationLifeboatRocket.png",
+                    "alt": "Small lifeboat mark on yellow",
+                    "description": "Rescue station, Lifeboat station, Rocket station",
+                    "id": "T12"
+                },
+                {
+                    "symbol": "Sections/T/LifeboatLyingAtAMooring.png",
+                    "alt": "Black mooring buoy with lifeboat mark, and a single lifeboat mark",
+                    "description": "Lifeboat lying at a mooring",
+                    "id": "T13"
+                },
+                {
+                    "symbol": "Ref",
+                    "alt": null,
+                    "description": "Refuge for shipwrecked mariners",
+                    "id": "T14"
+                },
+                {
+                    "symbol": "Sections/T/SignalStationInGeneral.png",
+                    "alt": "Small circle with dot and SS",
+                    "description": "Signal station in general",
+                    "id": "T20"
+                },
+                {
+                    "symbol": "Sections/T/SignalStationShowingInternationalPortTraffic.png",
+                    "alt": "Small circle with dot and SS(INT)",
+                    "description": "Signal station showing International Port Traffic Signals",
+                    "id": "T21"
+                },
+                {
+                    "symbol": "Sections/T/TrafficSignalStationPortEntryAnd.png",
+                    "alt": "Small circle with dot and SS(Traffic)",
+                    "description": "Traffic signal station, Port entry and departure signals",
+                    "id": "T22"
+                },
+                {
+                    "symbol": "Sections/T/PortControlSignalStation.png",
+                    "alt": "Small circle with dot and SS(Port Control)",
+                    "description": "Port control signal station",
+                    "id": "T23"
+                },
+                {
+                    "symbol": "Sections/T/LockSignalStation.png",
+                    "alt": "Small circle with dot and SS(Lock)",
+                    "description": "Lock signal station",
+                    "id": "T24"
+                },
+                {
+                    "symbol": "Sections/T/BridgePassageSignalStation.png",
+                    "alt": "Small circle with dot and SS(Bridge)",
+                    "description": "Bridge passage signal station",
+                    "id": "T25.1"
+                },
+                {
+                    "symbol": "Sections/T/BridgeLightsIncludingTrafficSignals.png",
+                    "alt": "Magenta flare with star, F. and Traffic Sig",
+                    "description": "Bridge lights including traffic signals",
+                    "id": "T25.2"
+                },
+                {
+                    "symbol": "Sections/T/DistressSignalStation.png",
+                    "alt": "Small circle with dot and SS",
+                    "description": "Distress signal station",
+                    "id": "T26"
+                },
+                {
+                    "symbol": "Sections/T/TelegraphStation.png",
+                    "alt": "Small circle with dot and SS",
+                    "description": "Telegraph station",
+                    "id": "T27"
+                },
+                {
+                    "symbol": "Sections/T/StormSignalStation.png",
+                    "alt": "Small circle with dot and SS(Storm)",
+                    "description": "Storm signal station",
+                    "id": "T28"
+                },
+                {
+                    "symbol": "Sections/T/WeatherSignalStationWind.png",
+                    "alt": "Small circle with dot and SS(Weather)",
+                    "description": "Weather signal station, Wind signal station",
+                    "id": "T29"
+                },
+                {
+                    "symbol": "Sections/T/IceSignalStation.png",
+                    "alt": "Small circle with dot and SS(Ice)",
+                    "description": "Ice signal station",
+                    "id": "T30"
+                },
+                {
+                    "symbol": "Sections/T/TimeSignalStation.png",
+                    "alt": "Small circle with dot and SS(Time)",
+                    "description": "Time signal station",
+                    "id": "T31"
+                },
+                {
+                    "symbol": "Sections/T/TideScaleOrGauge.png",
+                    "alt": "Small vertical scale with crossbars on a circle",
+                    "description": "Tide scale or gauge",
+                    "id": "T32.1"
+                },
+                {
+                    "symbol": "Sections/T/AutomaticallyRecordingTideGauge.png",
+                    "alt": "Small circle with dot and Tide gauge",
+                    "description": "Automatically recording tide gauge",
+                    "id": "T32.2"
+                },
+                {
+                    "symbol": "Sections/T/TideSignalStation.png",
+                    "alt": "Small circle with dot and SS(Tide)",
+                    "description": "Tide signal station",
+                    "id": "T33"
+                },
+                {
+                    "symbol": "Sections/T/TidalStreamSignalStation.png",
+                    "alt": "Small circle with dot and SS(Stream)",
+                    "description": "Tidal stream signal station",
+                    "id": "T34"
+                },
+                {
+                    "symbol": "Sections/T/DangerSignalStation.png",
+                    "alt": "Small circle with dot and SS(Danger)",
+                    "description": "Danger signal station",
+                    "id": "T35"
+                },
+                {
+                    "symbol": "Sections/T/FiringPracticeSignalStation.png",
+                    "alt": "Small circle with dot and SS(Firing)",
+                    "description": "Firing practice signal station",
+                    "id": "T36"
+                }
+
+        ,
+        {
+            "title": "U: Small Craft (Leisure) Facilities",
+            "id": "U",
+            "items": [
+                {
+                    "symbol": "Sections/U/YachtHarbourMarina.png",
+                    "alt": "Magenta circle with a sailing boat",
+                    "description": "Yacht harbour, Marina",
+                    "id": "U1.1"
+                }
+            ]
+        }
