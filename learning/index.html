@@ -72,9 +72,9 @@
                     } while (optionNumbers.includes(number));
                     optionNumbers.push(number);
                     const randomItem = data.sections[sectionNumber].items[number];
-                    options.push(`<p>${randomItem.description}</p>`);
+                    options.push(`${randomItem.description}`);
                 }
-                options[answerIndex] = `<p>${iconObject.description}</p>`;
+                options[answerIndex] = `${iconObject.description}`;
 
                 let question;
                 if (iconObject.alt) {

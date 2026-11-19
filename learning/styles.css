@@ -71,3 +71,15 @@ footer {
     color: #fff;
 }
 
+button {
+    padding: 10px 20px; /* Increase the padding for fatter buttons */
+    border-radius: 15px; /* Round the corners more */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 1px solid #111; /* Add a small border */
+
+}
